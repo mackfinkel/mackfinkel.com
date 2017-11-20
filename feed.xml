@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>mack finkel</title>
+        <link>https://mackfinkel.github.io/mackfinkel.com</link>
+        <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
+        <lastBuildDate>Mon, 20 Nov 2017 03:55:47 -0500</lastBuildDate>
+        
+        <item>
+          <title>Educational Alternatives to Animal Dissection</title>
+            <description>
+                Taking the life of an animal to learn anatomy is more expensive, but not more educational, than several alternatives.
+            </description>
+            <pubDate>Mon, 23 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/science/animals/education/2017/10/23/dissection-alternatives.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>Don't Turnitin – The Case Against Plagiarism Detectors</title>
+            <description>
+                While used by millions, plagiarism detection services are detrimental to the goals of students and teachers alike.
+            </description>
+            <pubDate>Wed, 18 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/education/2017/10/18/dont-turnitin.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>Walking Through Data – Hog and Pig Farms</title>
+            <description>
+                In examining data, we can see telling relationships about agriculture. Here these relationships – and ways of visualizing them – are discussed.
+            </description>
+            <pubDate>Thu, 12 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/animals/statistics/2017/10/12/pork-data.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>The Tragedy of Pork Agriculture</title>
+            <description>
+                The industrialization of pork is a growing disaster for public health and animal welfare in the United States.
+            </description>
+            <pubDate>Wed, 11 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/animals/statistics/2017/10/11/pork-agriculture.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>Sleep Deprivation Does Not Treat Depression</title>
+            <description>
+                Recent claims that sleep deprivation is an effective treatment for depression demonstrate a common problem with press releases in science journalism.
+            </description>
+            <pubDate>Wed, 04 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/science/2017/10/04/sleep-deprivation-depression.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>How to Keep Track of Facts, Argue Intelligently, and Stay Informed</title>
+            <description>
+                Citation managers make everything easier.
+            </description>
+            <pubDate>Mon, 18 Sep 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/education/2017/09/18/track-facts.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>What Can One Weird Drug Teach Us About The Way We Hear?</title>
+            <description>
+                The pitch-distorting properties of DiPT make it an valuable tool in studying the neural mechanisms of hearing.
+            </description>
+            <pubDate>Fri, 15 Sep 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/science/2017/09/15/weird-drug.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>What Milk Is Best? Environment, Cows, Almonds, and You</title>
+            <description>
+                A popular article comparing types of milk has some major flaws.
+            </description>
+            <pubDate>Mon, 21 Aug 2017 00:00:00 -0400</pubDate>
+            <guid>
+                https://mackfinkel.github.io/mackfinkel.com/science/animals/2017/08/21/what-milk.html
+            </guid>
+        </item>
+        
+    </channel>
+</rss>
