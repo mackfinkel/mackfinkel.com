@@ -7,3 +7,4 @@ TODO
 * blockquote to indented and muted text
 * liquid filters to remove `<hr>` and replace `<h1>` in posts
 * comment out ← Older Newer → for now
+* reduce bottom padding on left-pull
