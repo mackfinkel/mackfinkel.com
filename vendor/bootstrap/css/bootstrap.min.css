@@ -220,8 +220,8 @@ img {
 .pull-left {
  float:left!important;
  border-radius:.25rem!important;
- margin-left: 10px;
  margin-right: 20px;
+ margin-top: 5px
 }
 svg:not(:root) {
  overflow:hidden
