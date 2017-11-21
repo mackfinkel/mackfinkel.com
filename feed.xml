@@ -3,9 +3,9 @@
 
     <channel>
         <title>mack finkel</title>
-        <link>https://mackfinkel.github.io/mackfinkel.com</link>
+        <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Mon, 20 Nov 2017 20:08:20 -0500</lastBuildDate>
+        <lastBuildDate>Mon, 20 Nov 2017 23:16:56 -0500</lastBuildDate>
         
         <item>
           <title>Educational Alternatives to Animal Dissection</title>
@@ -14,7 +14,7 @@
             </description>
             <pubDate>Mon, 23 Oct 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/science/animals/education/2017/10/23/dissection-alternatives.html
+                http://mackfinkel.com/science/animals/education/2017/10/23/dissection-alternatives.html
             </guid>
         </item>
         
@@ -25,7 +25,7 @@
             </description>
             <pubDate>Wed, 18 Oct 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/education/2017/10/18/dont-turnitin.html
+                http://mackfinkel.com/education/2017/10/18/dont-turnitin.html
             </guid>
         </item>
         
@@ -36,7 +36,7 @@
             </description>
             <pubDate>Thu, 12 Oct 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/animals/statistics/2017/10/12/pork-data.html
+                http://mackfinkel.com/animals/statistics/2017/10/12/pork-data.html
             </guid>
         </item>
         
@@ -47,7 +47,7 @@
             </description>
             <pubDate>Wed, 11 Oct 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/animals/statistics/2017/10/11/pork-agriculture.html
+                http://mackfinkel.com/animals/statistics/2017/10/11/pork-agriculture.html
             </guid>
         </item>
         
@@ -58,7 +58,7 @@
             </description>
             <pubDate>Wed, 04 Oct 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/science/2017/10/04/sleep-deprivation-depression.html
+                http://mackfinkel.com/science/2017/10/04/sleep-deprivation-depression.html
             </guid>
         </item>
         
@@ -69,7 +69,7 @@
             </description>
             <pubDate>Mon, 18 Sep 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/education/2017/09/18/track-facts.html
+                http://mackfinkel.com/education/2017/09/18/track-facts.html
             </guid>
         </item>
         
@@ -80,7 +80,7 @@
             </description>
             <pubDate>Fri, 15 Sep 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/science/2017/09/15/weird-drug.html
+                http://mackfinkel.com/science/2017/09/15/weird-drug.html
             </guid>
         </item>
         
@@ -91,7 +91,7 @@
             </description>
             <pubDate>Mon, 21 Aug 2017 00:00:00 -0400</pubDate>
             <guid>
-                https://mackfinkel.github.io/mackfinkel.com/science/animals/2017/08/21/what-milk.html
+                http://mackfinkel.com/science/animals/2017/08/21/what-milk.html
             </guid>
         </item>
         

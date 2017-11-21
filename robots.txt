@@ -1,1 +1,1 @@
-Sitemap: https://mackfinkel.github.io/mackfinkel.com/sitemap.xml
+Sitemap: http://mackfinkel.com/sitemap.xml

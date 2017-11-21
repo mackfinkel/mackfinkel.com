@@ -217,12 +217,6 @@ img {
  max-width: 100%;
  border-radius:.25rem!important
 }
-.pull-left {
- float:left!important;
- border-radius:.25rem!important;
- margin-right: 20px;
- margin-top: 5px
-}
 svg:not(:root) {
  overflow:hidden
 }
