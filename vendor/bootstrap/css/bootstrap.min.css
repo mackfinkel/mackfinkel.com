@@ -151,7 +151,7 @@ dd {
  margin-left:0
 }
 blockquote {
- margin:0 0 1rem
+  color:#6e6e6e !important;
 }
 dfn {
  font-style:italic
