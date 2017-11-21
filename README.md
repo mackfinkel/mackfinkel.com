@@ -5,5 +5,5 @@ template adjusted from theme copyrighted 2013-2017 by Blackrock Digital LLC. Cod
 TODO
 
 * blockquote to indented and muted text
-* liquid filters to remove <hr> and replace <h1> in posts
+* liquid filters to remove `<hr>` and replace `<h1>` in posts
 * comment out ← Older Newer → for now
