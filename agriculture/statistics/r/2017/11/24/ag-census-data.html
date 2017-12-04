@@ -80,7 +80,7 @@
           
           <!-- Post Content -->
           <p class="lead">Post-Thanksgiving, America is experiencing a different kind of hunger – a hunger for agricultural data that is easy to process in the programming language R.</p>
-          <center>[![Precision_Farming_in_Minnesota_-_Natural_Colour.jpg](https://steemitimages.com/DQmZBTHdhGcN64hLeDGKmUxSbqrxyFmY3a4tBwhFpjHCLwM/Precision_Farming_in_Minnesota_-_Natural_Colour.jpg)<center>Farms in Minnesota as seen by Satellite</center>](https://commons.wikimedia.org/wiki/File:Precision_Farming_in_Minnesota_-_Natural_Colour.jpg)</center>
+          <p><a href="https://commons.wikimedia.org/wiki/File:Precision_Farming_in_Minnesota_-_Natural_Colour.jpg"><img src="https://steemitimages.com/DQmZBTHdhGcN64hLeDGKmUxSbqrxyFmY3a4tBwhFpjHCLwM/Precision_Farming_in_Minnesota_-_Natural_Colour.jpg" alt="Precision_Farming_in_Minnesota_-_Natural_Colour.jpg" /><center>Farms in Minnesota as seen by Satellite</center></a></p>
 
 <h1 id="finding-data">Finding Data</h3>
 
@@ -88,7 +88,7 @@
 
 <p>Browsing through the Ag Census site, there seems to be no clear way to get all of the census information at once. There are <a href="https://www.agcensus.usda.gov/Publications/2012/Full_Report/Volume_1,_Chapter_1_US/usv1.pdf">.pdf files</a> and <a href="https://www.agcensus.usda.gov/Publications/2012/Full_Report/Volume_1,_Chapter_1_US/usv1.txt">.txt files</a> with information and tables, but none of those are easily importable. There is also a <a href="https://quickstats.nass.usda.gov/?source_desc=CENSUS">Quick Stats database</a> with this information, which you can query on the website or through <a href="https://quickstats.nass.usda.gov/api">an API</a>. This was more promising but still wasn’t not quite what I was looking for. I wanted all of the raw data, without any processing done. Then I noticed a link at the bottom of the API page, which lead to <a href="ftp://ftp.nass.usda.gov/quickstats/">all the raw Ag Census data in tabular format</a>. This was exactly what I was looking for.</p>
 
-<center>[![all the data](https://steemitimages.com/DQmNo2UV3LXX7xKEeMqxGr1qe82DCqRRfqK15QuQo7Fgbi1/Screen%20Shot%202017-11-24%20at%203.32.49%20PM.png)<br /><center>All Ag Census Data</center>](ftp://ftp.nass.usda.gov/quickstats/)</center>
+<p><a href="ftp://ftp.nass.usda.gov/quickstats/"><img src="https://steemitimages.com/DQmNo2UV3LXX7xKEeMqxGr1qe82DCqRRfqK15QuQo7Fgbi1/Screen%20Shot%202017-11-24%20at%203.32.49%20PM.png" alt="all the data" /><br /><center>All Ag Census Data</center></a></p>
 
 <h1 id="importing-data">Importing Data</h3>
 
@@ -120,10 +120,11 @@ save(cag2007,file="cag2007.Rda")
 save(cag2012,file="cag2012.Rda")
 </code></pre>
 </div>
-<p><br />
-Here’s what this looks like imported (in RStudio):</p>
+<p><br /></p>
 
-<center>![imported](https://steemitimages.com/DQmaBS3S5A7CpuJ279MZ8Fzev6cLFPwuRt53qRHfTMEc5iD/Screen%20Shot%202017-11-24%20at%203.32.20%20PM.png)<br /> In R: Ag Census data by year</center>
+<p>Here’s what this looks like imported (in RStudio):</p>
+
+<p><img src="https://steemitimages.com/DQmaBS3S5A7CpuJ279MZ8Fzev6cLFPwuRt53qRHfTMEc5iD/Screen%20Shot%202017-11-24%20at%203.32.20%20PM.png" alt="imported" /><br /><center>In RStudio: Ag Census data by year</center></p>
 
 <p>Now I have a many millions of instances of data that spans across 3 different years to work with. Variable names are listed in the <a href="https://quickstats.nass.usda.gov/api">Quick Stats API documentation</a>. I’m also ready as soon as the 2017 Ag Census comes out, <a href="https://www.agcensus.usda.gov/Newsroom/2017/09_25_2017.php">which is soon</a>. When I work with this data in the future, I will be able to analyze it in a pipeline: everything I post will be immediately reproducible by anyone else, and there won’t be any room for potential copy-paste errors!</p>
 
