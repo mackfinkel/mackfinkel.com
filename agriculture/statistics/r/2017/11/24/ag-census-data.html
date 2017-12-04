@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Post-Thanksgiving, America is experiencing a different kind of hunger – a hunger for agricultural data that is easy to process in the programming language R. ">
+    <meta name="author" content="Mack Finkel">
+    <meta name="date" content="2017-11-24 00:00:00 -0500">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Importing USDA Census of Agriculture Data into R | mack finkel" />
+    <meta property="og:url" content="http://mackfinkel.com/agriculture/statistics/r/2017/11/24/ag-census-data.html"  />
+    <meta property="og:description" content="Post-Thanksgiving, America is experiencing a different kind of hunger – a hunger for agricultural data that is easy to process in the programming language R." />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://steemitimages.com/DQmZBTHdhGcN64hLeDGKmUxSbqrxyFmY3a4tBwhFpjHCLwM/Precision_Farming_in_Minnesota_-_Natural_Colour.jpg" />
+    <meta property="og:site_name" content="mack finkel" />
+    <meta property="article:published_time" content="2017-11-24 00:00:00 -0500" />
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="http://mackfinkel.com/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://mackfinkel.com/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://mackfinkel.com/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://mackfinkel.com/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://mackfinkel.com/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://mackfinkel.com/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://mackfinkel.com/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://mackfinkel.com/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://mackfinkel.com/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="http://mackfinkel.com/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://mackfinkel.com/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://mackfinkel.com/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://mackfinkel.com/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://mackfinkel.com/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://mackfinkel.com/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Importing USDA Census of Agriculture Data into R | mack finkel</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://mackfinkel.github.io/mackfinkel.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://mackfinkel.github.io/mackfinkel.com/css/blog-post.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="http://mackfinkel.com">mack finkel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://mackfinkel.com/cv.html">cv</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8 mx-auto">
+
+          <!-- Title -->
+          <h1 class="mt-4">Importing USDA Census of Agriculture Data into R</h1>
+          <h1><small class="text-muted"><small>24 November 2017</small></small></h1>
+          
+          <!-- Post Content -->
+          <p class="lead">Post-Thanksgiving, America is experiencing a different kind of hunger – a hunger for agricultural data that is easy to process in the programming language R.</p>
+          <center>[![Precision_Farming_in_Minnesota_-_Natural_Colour.jpg](https://steemitimages.com/DQmZBTHdhGcN64hLeDGKmUxSbqrxyFmY3a4tBwhFpjHCLwM/Precision_Farming_in_Minnesota_-_Natural_Colour.jpg)<center>Farms in Minnesota as seen by Satellite</center>](https://commons.wikimedia.org/wiki/File:Precision_Farming_in_Minnesota_-_Natural_Colour.jpg)</center>
+
+<h1 id="finding-data">Finding Data</h3>
+
+<p>The <a href="https://www.agcensus.usda.gov/">USDA Census of Agriculture </a> (or “Ag Census”) is an incredible source of pretty much any kind of agricultural data that you might be looking for, and I’ve used this census in two <a href="https://steemit.com/food/@somethingburger/the-tragedy-of-pork-agriculture">previous</a> <a href="https://steemit.com/food/@somethingburger/walking-through-data-hog-and-pig-farms">posts</a>. In those posts, I copied and pasted relevant information from a .pdf file. This was fine because I wasn’t working with that much data, but this definitely wouldn’t work if I were doing something bigger, like looking at <a href="http://factoryfarmmap.org/">factory farms by county</a>.</p>
+
+<p>Browsing through the Ag Census site, there seems to be no clear way to get all of the census information at once. There are <a href="https://www.agcensus.usda.gov/Publications/2012/Full_Report/Volume_1,_Chapter_1_US/usv1.pdf">.pdf files</a> and <a href="https://www.agcensus.usda.gov/Publications/2012/Full_Report/Volume_1,_Chapter_1_US/usv1.txt">.txt files</a> with information and tables, but none of those are easily importable. There is also a <a href="https://quickstats.nass.usda.gov/?source_desc=CENSUS">Quick Stats database</a> with this information, which you can query on the website or through <a href="https://quickstats.nass.usda.gov/api">an API</a>. This was more promising but still wasn’t not quite what I was looking for. I wanted all of the raw data, without any processing done. Then I noticed a link at the bottom of the API page, which lead to <a href="ftp://ftp.nass.usda.gov/quickstats/">all the raw Ag Census data in tabular format</a>. This was exactly what I was looking for.</p>
+
+<center>[![all the data](https://steemitimages.com/DQmNo2UV3LXX7xKEeMqxGr1qe82DCqRRfqK15QuQo7Fgbi1/Screen%20Shot%202017-11-24%20at%203.32.49%20PM.png)<br /><center>All Ag Census Data</center>](ftp://ftp.nass.usda.gov/quickstats/)</center>
+
+<h1 id="importing-data">Importing Data</h3>
+
+<p>After finding the data, I wrote an R script that downloads all Ag Census data from the internet, converts it to R, and saves it in a folder.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#download, convert, import US Census of Agriculture Data into R
+
+#set up
+dir.create("raw")
+dir.create("rImported")
+
+#all files from USDA FTP quickstats site ftp://ftp.nass.usda.gov/quickstats/
+#best way for of downloadable tabular census data I know of
+#download to censusData
+setwd("raw")
+download.file("ftp://ftp.nass.usda.gov/quickstats/qs.census2002.txt.gz", "2002.txt.gz")
+download.file("ftp://ftp.nass.usda.gov/quickstats/qs.census2007.txt.gz", "2007.txt.gz")
+download.file("ftp://ftp.nass.usda.gov/quickstats/qs.census2012.txt.gz", "2012.txt.gz")
+
+#convert to r
+cag2002 &lt;- read.table(gzfile("2002.txt.gz"), sep="\t", header=TRUE)
+cag2007 &lt;- read.table(gzfile("2007.txt.gz"), sep="\t", header=TRUE)
+cag2012 &lt;- read.table(gzfile("2012.txt.gz"), sep="\t", header=TRUE)
+
+#save
+setwd("../rImported")
+save(cag2002,file="cag2002.Rda")
+save(cag2007,file="cag2007.Rda")
+save(cag2012,file="cag2012.Rda")
+</code></pre>
+</div>
+<p><br />
+Here’s what this looks like imported (in RStudio):</p>
+
+<center>![imported](https://steemitimages.com/DQmaBS3S5A7CpuJ279MZ8Fzev6cLFPwuRt53qRHfTMEc5iD/Screen%20Shot%202017-11-24%20at%203.32.20%20PM.png)<br /> In R: Ag Census data by year</center>
+
+<p>Now I have a many millions of instances of data that spans across 3 different years to work with. Variable names are listed in the <a href="https://quickstats.nass.usda.gov/api">Quick Stats API documentation</a>. I’m also ready as soon as the 2017 Ag Census comes out, <a href="https://www.agcensus.usda.gov/Newsroom/2017/09_25_2017.php">which is soon</a>. When I work with this data in the future, I will be able to analyze it in a pipeline: everything I post will be immediately reproducible by anyone else, and there won’t be any room for potential copy-paste errors!</p>
+
+<p>As always, this code is on <a href="https://github.com/mackfinkel/agricultureData">GitHub</a>. The data files themselves are too large to be uploaded there (&gt; 25 mb).</p>
+
+          
+          <!-- Author -->
+          <p class="text-muted">
+            <span class="postDate">24 november 2017</span>.
+            
+cross-posted on
+
+<a href="https://steemit.com/education/@somethingburger/importing-usda-census-of-agriculture-data-into-r-1511564625-3931718">steemit</a>
+and <a href="http://mackfinkel.com/agriculture/statistics/r/2017/11/24/ag-census-data.html">my site.</a>
+            filed under
+
+<a href="http://mackfinkel.com/categories.html#agriculture">agriculture</a>, 
+<a href="http://mackfinkel.com/categories.html#statistics">statistics</a>, 
+and <a href="http://mackfinkel.com/categories.html#r">r</a>.
+</p>
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    <footer class="py-5 bg-white">
+      <div class="container text-center text-muted">
+        <p>All content <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>.</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
