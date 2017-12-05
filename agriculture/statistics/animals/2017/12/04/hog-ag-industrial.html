@@ -5,17 +5,17 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="In examining data, we can see telling relationships about agriculture. Here these relationships – and ways of visualizing them – are discussed. ">
+    <meta name="description" content="Pork agriculture is industrializing. ">
     <meta name="author" content="Mack Finkel">
-    <meta name="date" content="2017-10-12 00:00:00 -0400">
+    <meta name="date" content="2017-12-04 00:00:00 -0500">
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Walking Through Data – Hog and Pig Farms | mack finkel" />
-    <meta property="og:url" content="http://mackfinkel.com/agriculture/animals/statistics/2017/10/12/pork-data.html"  />
-    <meta property="og:description" content="In examining data, we can see telling relationships about agriculture. Here these relationships – and ways of visualizing them – are discussed." />
+    <meta property="og:title" content="More hogs are on factory farms than ever before | mack finkel" />
+    <meta property="og:url" content="http://mackfinkel.com/agriculture/statistics/animals/2017/12/04/hog-ag-industrial.html"  />
+    <meta property="og:description" content="Pork agriculture is industrializing." />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="https://steemitimages.com/0x0/https://raw.githubusercontent.com/mackfinkel/agricultureData/master/hogsPigs/hogsPigslivestock.png" />
+    <meta property="og:image" content="https://steemitimages.com/0x0/https://steemitimages.com/DQmRZX6o61Cqx174UUWQM4Gj5pNXEcmJ8Z3pZN17ozA6p84/hogsInventory.png" />
     <meta property="og:site_name" content="mack finkel" />
-    <meta property="article:published_time" content="2017-10-12 00:00:00 -0400" />
+    <meta property="article:published_time" content="2017-12-04 00:00:00 -0500" />
     
     
     <link rel="apple-touch-icon" sizes="57x57" href="http://mackfinkel.com/img/favicon/apple-icon-57x57.png">
@@ -38,7 +38,7 @@
     
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <title>Walking Through Data – Hog and Pig Farms | mack finkel</title>
+    <title>More hogs are on factory farms than ever before | mack finkel</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://mackfinkel.github.io/mackfinkel.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -110,303 +110,45 @@
         <div class="col-lg-8 mx-auto">
 
           <!-- Title -->
-          <h1 class="mt-4">Walking Through Data – Hog and Pig Farms</h1>
-          <h1><small class="text-muted"><small>12 October 2017</small></small></h1>
+          <h1 class="mt-4">More hogs are on factory farms than ever before</h1>
+          <h1><small class="text-muted"><small>04 December 2017</small></small></h1>
           
           <!-- Post Content -->
-          <p class="lead">In examining data, we can see telling relationships about agriculture. Here these relationships – and ways of visualizing them – are discussed.</p>
-          <h3>
-Data by farm size
-</h3>
-<p>
-Yesterday I wrote <a href="https://steemit.com/food/@somethingburger/the-tragedy-of-pork-agriculture">a post about pork agriculture</a> in the United States. In this post, I made a graph from the following data, which is from the <a href="https://www.agcensus.usda.gov/Publications/2012/#full_report" rel="noopener">2012 US Census of Agriculture</a>:
-</p>
-<table>
-<thead>
-<tr>
-<th>
-Hogs/Pigs on Farm
-</th>
-<th>
-Farms
-</th>
-<th>
-Hogs/Pigs
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-1 - 24
-</td>
-<td>
-41,688
-</td>
-<td>
-244,250
-</td>
-</tr>
-<tr>
-<td>
-25 - 49
-</td>
-<td>
-3,435
-</td>
-<td>
-116,808
-</td>
-</tr>
-<tr>
-<td>
-50 - 99
-</td>
-<td>
-2,161
-</td>
-<td>
-146,967
-</td>
-</tr>
-<tr>
-<td>
-100 - 199
-</td>
-<td>
-1,469
-</td>
-<td>
-201,460
-</td>
-</tr>
-<tr>
-<td>
-200 - 499
-</td>
-<td>
-2,115
-</td>
-<td>
-683,977
-</td>
-</tr>
-<tr>
-<td>
-500 - 999
-</td>
-<td>
-1,977
-</td>
-<td>
-1,384,921
-</td>
-</tr>
-<tr>
-<td>
-1000 - 1999
-</td>
-<td>
-2,677
-</td>
-<td>
-3,662,168
-</td>
-</tr>
-<tr>
-<td>
-2000 - 4999
-</td>
-<td>
-4,718
-</td>
-<td>
-14,867,199
-</td>
-</tr>
-<tr>
-<td>
-5000+
-</td>
-<td>
-3006
-</td>
-<td>
-44,719,035
-</td>
-</tr>
-</tbody>
-</table>
-<p>
-This data can be used to make a bar chart showing how many hogs and pigs are on large farms. Below is the graph I used in yesterday’s post.
-</p>
-<div id="htmlwidget-85a5a900c16c3f4b78ca" style="width:100%;height:500px;" class="highchart html-widget"></div>
-<script type="application/json" data-for="htmlwidget-85a5a900c16c3f4b78ca">{"x":{"hc_opts":{"title":{"text":"Most hogs and pigs are on factory farms"},"yAxis":{"title":{"text":"Hogs/Pigs"},"type":"linear"},"credits":{"enabled":true,"text":"Source: 2012 Census of Agriculture","href":"https://www.agcensus.usda.gov/Publications/2012/"},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":false,"marker":{"enabled":true}},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25},"scatter":{"marker":{"symbol":"circle"}}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10,"shape":"rectangle","shared":true},"series":[{"group":"group","data":[{"herdSize":"1 - 24","farms":41688,"number":244250,"Farms":65.914049900389,"Livestock":0.369925629424483,"y":244250,"name":"1 - 24"},{"herdSize":"25 - 49","farms":3435,"number":116808,"Farms":5.43117351294944,"Livestock":0.17691002219781,"y":116808,"name":"25 - 49"},{"herdSize":"50 - 99","farms":2161,"number":146967,"Farms":3.41681687379439,"Livestock":0.222586939527648,"y":146967,"name":"50 - 99"},{"herdSize":"100 - 199","farms":1469,"number":201460,"Farms":2.32267653290327,"Livestock":0.305118596945164,"y":201460,"name":"100 - 199"},{"herdSize":"200 - 499","farms":2115,"number":683977,"Farms":3.34408500142301,"Livestock":1.0359083817272,"y":683977,"name":"200 - 499"},{"herdSize":"500 - 999","farms":1977,"number":1384921,"Farms":3.12588938430889,"Livestock":2.09751391045316,"y":1384921,"name":"500 - 999"},{"herdSize":"1000 - 1999","farms":2677,"number":3662168,"Farms":4.23267874648199,"Livestock":5.54648844404585,"y":3662168,"name":"1000 - 1999"},{"herdSize":"2000 - 4999","farms":4718,"number":14867199,"Farms":7.45976030104671,"Livestock":22.5169209738139,"y":14867199,"name":"2000 - 4999"},{"herdSize":"5000+","farms":3006,"number":44719035,"Farms":4.75286974670335,"Livestock":67.7286271018648,"y":44719035,"name":"5000+"}],"type":"column","name":"Hogs/Pigs"}],"xAxis":{"type":"category","title":{"text":"Farm Size (Hogs/Pigs on Farm)"}},"legend":{"enabled":false}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+          <p class="lead">Pork agriculture is industrializing.</p>
+          <p>Hog farming in the United States is a <a href="https://steemit.com/food/@somethingburger/the-tragedy-of-pork-agriculture">growing disaster</a> for public health and animal welfare. According to Census of Agriculture data from <a href="http://mackfinkel.com/agriculture/animals/statistics/2017/10/12/pork-data.html">2012</a>, 96% of hogs and pigs were on factory farms, despite the fact that most farms are small.</p>
 
-<p>
-This graph is informative, but doesn’t reflect all the interesting things in the above data. For instance, seeing this graph alone might lead you to an assumption that most farms are factory farms, but that’s not true. Let’s take a look at a graph of the number of farms by farm size.
-</p>
-<div id="htmlwidget-833eefdb9ffae4881903" style="width:100%;height:500px;" class="highchart html-widget"></div>
-<script type="application/json" data-for="htmlwidget-833eefdb9ffae4881903">{"x":{"hc_opts":{"title":{"text":"Most hog and pig farms are small"},"yAxis":{"title":{"text":"Farms"},"type":"linear"},"credits":{"enabled":true,"text":"Source: 2012 Census of Agriculture","href":"https://www.agcensus.usda.gov/Publications/2012/"},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":false,"marker":{"enabled":true}},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25},"scatter":{"marker":{"symbol":"circle"}}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10,"shape":"rectangle","shared":true},"series":[{"group":"group","data":[{"herdSize":"1 - 24","farms":41688,"number":244250,"Farms":65.914049900389,"Livestock":0.369925629424483,"y":41688,"name":"1 - 24"},{"herdSize":"25 - 49","farms":3435,"number":116808,"Farms":5.43117351294944,"Livestock":0.17691002219781,"y":3435,"name":"25 - 49"},{"herdSize":"50 - 99","farms":2161,"number":146967,"Farms":3.41681687379439,"Livestock":0.222586939527648,"y":2161,"name":"50 - 99"},{"herdSize":"100 - 199","farms":1469,"number":201460,"Farms":2.32267653290327,"Livestock":0.305118596945164,"y":1469,"name":"100 - 199"},{"herdSize":"200 - 499","farms":2115,"number":683977,"Farms":3.34408500142301,"Livestock":1.0359083817272,"y":2115,"name":"200 - 499"},{"herdSize":"500 - 999","farms":1977,"number":1384921,"Farms":3.12588938430889,"Livestock":2.09751391045316,"y":1977,"name":"500 - 999"},{"herdSize":"1000 - 1999","farms":2677,"number":3662168,"Farms":4.23267874648199,"Livestock":5.54648844404585,"y":2677,"name":"1000 - 1999"},{"herdSize":"2000 - 4999","farms":4718,"number":14867199,"Farms":7.45976030104671,"Livestock":22.5169209738139,"y":4718,"name":"2000 - 4999"},{"herdSize":"5000+","farms":3006,"number":44719035,"Farms":4.75286974670335,"Livestock":67.7286271018648,"y":3006,"name":"5000+"}],"type":"column","name":"Farms"}],"xAxis":{"type":"category","title":{"text":"Farm Size (Hogs/Pigs on Farm)"}},"legend":{"enabled":false}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+<p>To investigate trends in pork industry, I examined data from the <a href="https://www.agcensus.usda.gov/index.php">US Census of Agriculture</a> on hog farms by farm size, which spans from 1997 to 2012.</p>
 
-<h3>
-Trends can help explain perceptual disparity between facts and anecdotes.
-</h3>
-<p>
-This trend is pretty surprising, but also may explain discrepancies that I have personally encountered. While we know that <a href="https://steemit.com/food/@somethingburger/the-tragedy-of-pork-agriculture">96% of hogs and pigs are on factory farms</a>, it can be hard to convince people that this is true. On several occasions when I have discussed pork agriculture with people, it is brought up that they know a friend or a family member who has worked on a farm where things aren’t nearly as bad as “the other farms.”
-</p>
-<p>
-Knowing that most farms are small while most hogs and pigs are on factory farms provides some explanation for this: while you are more likely to have seen or heard about a small farm, the pork on your plate is extremely likely to have come from a factory farm. Notably, the disparity between farms people have encountered and the prevalence of factory farms is exacerbated when you consider that people who have the luxury of leisurely discussing livestock populations are less likely to be around factory farms, since hog factory farms are about <a href="http://ehp.niehs.nih.gov/121-a182/" rel="noopener">nine times more likely</a> to exist in areas affected by poverty.
-</p>
-<h3>
-Combining graphs
-</h3>
-<p>
-It would be great to show all of this information in one simple graph, but to do so there should be a common metric that works to both numbers. While the number of total farms is in the ten thousands and the number of total pigs and hogs is in the ten millions, we can examine both of these quantities by farm size as a percentage of the total. Using the above data, we can make this conversion.
-</p>
-<table>
-<thead>
-<tr>
-<th>
-Hogs/Pigs on Farm
-</th>
-<th>
-Percentage of total farms
-</th>
-<th>
-Percentage of total Hogs/Pigs
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-1 - 24
-</td>
-<td>
-65.914050
-</td>
-<td>
-0.3699256
-</td>
-</tr>
-<tr>
-<td>
-25 - 49
-</td>
-<td>
-5.431174
-</td>
-<td>
-0.1769100
-</td>
-</tr>
-<tr>
-<td>
-50 - 99
-</td>
-<td>
-3.416817
-</td>
-<td>
-0.2225869
-</td>
-</tr>
-<tr>
-<td>
-100 - 199
-</td>
-<td>
-2.322677
-</td>
-<td>
-0.3051186
-</td>
-</tr>
-<tr>
-<td>
-200 - 499
-</td>
-<td>
-3.344085
-</td>
-<td>
-1.0359084
-</td>
-</tr>
-<tr>
-<td>
-500 - 999
-</td>
-<td>
-3.125889
-</td>
-<td>
-2.0975139
-</td>
-</tr>
-<tr>
-<td>
-1000 - 1999
-</td>
-<td>
-4.232679
-</td>
-<td>
-5.5464884
-</td>
-</tr>
-<tr>
-<td>
-2000 - 4999
-</td>
-<td>
-7.459760
-</td>
-<td>
-22.5169210
-</td>
-</tr>
-<tr>
-<td>
-5000+
-</td>
-<td>
-4.752870
-</td>
-<td>
-67.7286271
-</td>
-</tr>
-</tbody>
-</table>
-<p>
-In order to graph this data, a bar plot with two variables does the trick.
-</p>
-<div id="htmlwidget-2830004beb888d925af1" style="width:100%;height:500px;" class="highchart html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2830004beb888d925af1">{"x":{"hc_opts":{"title":{"text":"Most farms are small, but most hogs and pigs are on factory farms"},"yAxis":{"title":{"text":"Percent"},"type":"linear","labels":{"format":"{value}%"}},"credits":{"enabled":true,"text":"Source: 2012 Census of Agriculture","href":"https://www.agcensus.usda.gov/Publications/2012/"},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":true,"marker":{"enabled":true}},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25},"scatter":{"marker":{"symbol":"circle"}}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10,"valueDecimals":2,"valueSuffix":"%","shared":true},"series":[{"name":"Farms","data":[{"herdSize":"1 - 24","variable":"Farms","value":65.914049900389,"y":65.914049900389,"name":"1 - 24"},{"herdSize":"25 - 49","variable":"Farms","value":5.43117351294944,"y":5.43117351294944,"name":"25 - 49"},{"herdSize":"50 - 99","variable":"Farms","value":3.41681687379439,"y":3.41681687379439,"name":"50 - 99"},{"herdSize":"100 - 199","variable":"Farms","value":2.32267653290327,"y":2.32267653290327,"name":"100 - 199"},{"herdSize":"200 - 499","variable":"Farms","value":3.34408500142301,"y":3.34408500142301,"name":"200 - 499"},{"herdSize":"500 - 999","variable":"Farms","value":3.12588938430889,"y":3.12588938430889,"name":"500 - 999"},{"herdSize":"1000 - 1999","variable":"Farms","value":4.23267874648199,"y":4.23267874648199,"name":"1000 - 1999"},{"herdSize":"2000 - 4999","variable":"Farms","value":7.45976030104671,"y":7.45976030104671,"name":"2000 - 4999"},{"herdSize":"5000+","variable":"Farms","value":4.75286974670335,"y":4.75286974670335,"name":"5000+"}],"type":"column"},{"name":"Livestock","data":[{"herdSize":"1 - 24","variable":"Livestock","value":0.369925629424483,"y":0.369925629424483,"name":"1 - 24"},{"herdSize":"25 - 49","variable":"Livestock","value":0.17691002219781,"y":0.17691002219781,"name":"25 - 49"},{"herdSize":"50 - 99","variable":"Livestock","value":0.222586939527648,"y":0.222586939527648,"name":"50 - 99"},{"herdSize":"100 - 199","variable":"Livestock","value":0.305118596945164,"y":0.305118596945164,"name":"100 - 199"},{"herdSize":"200 - 499","variable":"Livestock","value":1.0359083817272,"y":1.0359083817272,"name":"200 - 499"},{"herdSize":"500 - 999","variable":"Livestock","value":2.09751391045316,"y":2.09751391045316,"name":"500 - 999"},{"herdSize":"1000 - 1999","variable":"Livestock","value":5.54648844404585,"y":5.54648844404585,"name":"1000 - 1999"},{"herdSize":"2000 - 4999","variable":"Livestock","value":22.5169209738139,"y":22.5169209738139,"name":"2000 - 4999"},{"herdSize":"5000+","variable":"Livestock","value":67.7286271018648,"y":67.7286271018648,"name":"5000+"}],"type":"column"}],"xAxis":{"type":"category","title":{"text":"Farm Size (Hogs/Pigs on Farm)"}},"legend":{"align":"left"}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e901b79f2904a3caf141" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e901b79f2904a3caf141">{"x":{"hc_opts":{"title":{"text":"The amount of small hog farms is decreasing"},"yAxis":{"title":{"text":"Farms"},"type":"linear"},"credits":{"enabled":true,"text":"Source: Census of Agriculture","href":"https://www.agcensus.usda.gov/index.php"},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":true,"marker":{"enabled":true}},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25},"scatter":{"marker":{"symbol":"circle"}}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10,"shared":true},"series":[{"name":1997,"data":[{"Year":1997,"Domain.Category":"1 - 24","Value":56092,"YearSort":1,"y":56092,"name":"1 - 24"},{"Year":1997,"Domain.Category":"25 - 49","Value":9411,"YearSort":25,"y":9411,"name":"25 - 49"},{"Year":1997,"Domain.Category":"50 - 99","Value":9334,"YearSort":50,"y":9334,"name":"50 - 99"},{"Year":1997,"Domain.Category":"100 - 199","Value":10364,"YearSort":100,"y":10364,"name":"100 - 199"},{"Year":1997,"Domain.Category":"200 - 499","Value":16539,"YearSort":200,"y":16539,"name":"200 - 499"},{"Year":1997,"Domain.Category":"500 - 999","Value":10378,"YearSort":500,"y":10378,"name":"500 - 999"},{"Year":1997,"Domain.Category":"1,000 - 1,999","Value":6597,"YearSort":1000,"y":6597,"name":"1,000 - 1,999"},{"Year":1997,"Domain.Category":"2,000 - 4,999","Value":4323,"YearSort":2000,"y":4323,"name":"2,000 - 4,999"},{"Year":1997,"Domain.Category":"5,000+","Value":1851,"YearSort":5000,"y":1851,"name":"5,000+"}],"type":"column"},{"name":2002,"data":[{"Year":2002,"Domain.Category":"1 - 24","Value":38303,"YearSort":1,"y":38303,"name":"1 - 24"},{"Year":2002,"Domain.Category":"25 - 49","Value":5650,"YearSort":25,"y":5650,"name":"25 - 49"},{"Year":2002,"Domain.Category":"50 - 99","Value":4682,"YearSort":50,"y":4682,"name":"50 - 99"},{"Year":2002,"Domain.Category":"100 - 199","Value":4611,"YearSort":100,"y":4611,"name":"100 - 199"},{"Year":2002,"Domain.Category":"200 - 499","Value":7755,"YearSort":200,"y":7755,"name":"200 - 499"},{"Year":2002,"Domain.Category":"500 - 999","Value":6010,"YearSort":500,"y":6010,"name":"500 - 999"},{"Year":2002,"Domain.Category":"1,000 - 1,999","Value":5148,"YearSort":1000,"y":5148,"name":"1,000 - 1,999"},{"Year":2002,"Domain.Category":"2,000 - 4,999","Value":4530,"YearSort":2000,"y":4530,"name":"2,000 - 4,999"},{"Year":2002,"Domain.Category":"5,000+","Value":2206,"YearSort":5000,"y":2206,"name":"5,000+"}],"type":"column"},{"name":2007,"data":[{"Year":2007,"Domain.Category":"1 - 24","Value":45047,"YearSort":1,"y":45047,"name":"1 - 24"},{"Year":2007,"Domain.Category":"25 - 49","Value":4292,"YearSort":25,"y":4292,"name":"25 - 49"},{"Year":2007,"Domain.Category":"50 - 99","Value":3182,"YearSort":50,"y":3182,"name":"50 - 99"},{"Year":2007,"Domain.Category":"100 - 199","Value":2590,"YearSort":100,"y":2590,"name":"100 - 199"},{"Year":2007,"Domain.Category":"200 - 499","Value":4524,"YearSort":200,"y":4524,"name":"200 - 499"},{"Year":2007,"Domain.Category":"500 - 999","Value":3588,"YearSort":500,"y":3588,"name":"500 - 999"},{"Year":2007,"Domain.Category":"1,000 - 1,999","Value":4013,"YearSort":1000,"y":4013,"name":"1,000 - 1,999"},{"Year":2007,"Domain.Category":"2,000 - 4,999","Value":5356,"YearSort":2000,"y":5356,"name":"2,000 - 4,999"},{"Year":2007,"Domain.Category":"5,000+","Value":2850,"YearSort":5000,"y":2850,"name":"5,000+"}],"type":"column"},{"name":2012,"data":[{"Year":2012,"Domain.Category":"1 - 24","Value":41688,"YearSort":1,"y":41688,"name":"1 - 24"},{"Year":2012,"Domain.Category":"25 - 49","Value":3435,"YearSort":25,"y":3435,"name":"25 - 49"},{"Year":2012,"Domain.Category":"50 - 99","Value":2161,"YearSort":50,"y":2161,"name":"50 - 99"},{"Year":2012,"Domain.Category":"100 - 199","Value":1469,"YearSort":100,"y":1469,"name":"100 - 199"},{"Year":2012,"Domain.Category":"200 - 499","Value":2115,"YearSort":200,"y":2115,"name":"200 - 499"},{"Year":2012,"Domain.Category":"500 - 999","Value":1977,"YearSort":500,"y":1977,"name":"500 - 999"},{"Year":2012,"Domain.Category":"1,000 - 1,999","Value":2677,"YearSort":1000,"y":2677,"name":"1,000 - 1,999"},{"Year":2012,"Domain.Category":"2,000 - 4,999","Value":4718,"YearSort":2000,"y":4718,"name":"2,000 - 4,999"},{"Year":2012,"Domain.Category":"5,000+","Value":3006,"YearSort":5000,"y":3006,"name":"5,000+"}],"type":"column"}],"xAxis":{"type":"category","title":{"text":"Farm Size (Hogs on Farm)"}}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
 
-<p>
-This graph illustrates disparity between farms and livestock that helps to explain the anecdotes I personally have encountered. The drawback of this representation is that specific numbers are not available, and a viewer would not be able to tell that there are about 42 thousand farms with 1 - 24 pigs and hogs, or that 45 million pigs and hogs are on farms with over 5000 of the same species.
-</p>
-<p>
-I hope this walkthrough has been informative and interesting! All code used to generate these charts is <a href="https://github.com/mackfinkel/agricultureData" rel="noopener">on github</a>.
-</p>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-e901b79f2904a3caf141">{"viewer":{"width":"100%","height":350,"padding":15,"fill":true},"browser":{"width":"100%","height":500,"padding":40,"fill":true}}</script>
+
+<p>While most of hog farms are small, the amount of small farms has decreased across the board since 1997. During the same period of time, the amount of farms with 2,000 or more hogs (which are considered to be <a href="https://factoryfarmmap.org/data-and-methodology/">factory farms</a>) has increased. Here’s how that impacts the distribution of hogs by farm size:</p>
+
+<div id="htmlwidget-51a26be29cbc643caa93" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-51a26be29cbc643caa93">{"x":{"hc_opts":{"title":{"text":"An increasing majority of hogs is factory farmed"},"yAxis":{"title":{"text":"Hogs"},"type":"linear"},"credits":{"enabled":true,"text":"Source: Census of Agriculture","href":"https://www.agcensus.usda.gov/index.php"},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":true,"marker":{"enabled":true}},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25},"scatter":{"marker":{"symbol":"circle"}}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10,"shared":true},"series":[{"name":1997,"data":[{"Year":1997,"Domain.Category":"1 - 24","Value":381729,"YearSort":1,"y":381729,"name":"1 - 24"},{"Year":1997,"Domain.Category":"25 - 49","Value":325329,"YearSort":25,"y":325329,"name":"25 - 49"},{"Year":1997,"Domain.Category":"50 - 99","Value":639493,"YearSort":50,"y":639493,"name":"50 - 99"},{"Year":1997,"Domain.Category":"100 - 199","Value":1417039,"YearSort":100,"y":1417039,"name":"100 - 199"},{"Year":1997,"Domain.Category":"200 - 499","Value":5194768,"YearSort":200,"y":5194768,"name":"200 - 499"},{"Year":1997,"Domain.Category":"500 - 999","Value":7104689,"YearSort":500,"y":7104689,"name":"500 - 999"},{"Year":1997,"Domain.Category":"1,000 - 1,999","Value":8794666,"YearSort":1000,"y":8794666,"name":"1,000 - 1,999"},{"Year":1997,"Domain.Category":"2,000 - 4,999","Value":12752495,"YearSort":2000,"y":12752495,"name":"2,000 - 4,999"},{"Year":1997,"Domain.Category":"5,000+","Value":24577941,"YearSort":5000,"y":24577941,"name":"5,000+"}],"type":"column"},{"name":2002,"data":[{"Year":2002,"Domain.Category":"1 - 24","Value":262098,"YearSort":1,"y":262098,"name":"1 - 24"},{"Year":2002,"Domain.Category":"25 - 49","Value":193931,"YearSort":25,"y":193931,"name":"25 - 49"},{"Year":2002,"Domain.Category":"50 - 99","Value":319128,"YearSort":50,"y":319128,"name":"50 - 99"},{"Year":2002,"Domain.Category":"100 - 199","Value":626869,"YearSort":100,"y":626869,"name":"100 - 199"},{"Year":2002,"Domain.Category":"200 - 499","Value":2463794,"YearSort":200,"y":2463794,"name":"200 - 499"},{"Year":2002,"Domain.Category":"500 - 999","Value":4175405,"YearSort":500,"y":4175405,"name":"500 - 999"},{"Year":2002,"Domain.Category":"1,000 - 1,999","Value":6849279,"YearSort":1000,"y":6849279,"name":"1,000 - 1,999"},{"Year":2002,"Domain.Category":"2,000 - 4,999","Value":13798995,"YearSort":2000,"y":13798995,"name":"2,000 - 4,999"},{"Year":2002,"Domain.Category":"5,000+","Value":31715604,"YearSort":5000,"y":31715604,"name":"5,000+"}],"type":"column"},{"name":2007,"data":[{"Year":2007,"Domain.Category":"1 - 24","Value":260154,"YearSort":1,"y":260154,"name":"1 - 24"},{"Year":2007,"Domain.Category":"25 - 49","Value":146672,"YearSort":25,"y":146672,"name":"25 - 49"},{"Year":2007,"Domain.Category":"50 - 99","Value":215206,"YearSort":50,"y":215206,"name":"50 - 99"},{"Year":2007,"Domain.Category":"100 - 199","Value":354203,"YearSort":100,"y":354203,"name":"100 - 199"},{"Year":2007,"Domain.Category":"200 - 499","Value":1467383,"YearSort":200,"y":1467383,"name":"200 - 499"},{"Year":2007,"Domain.Category":"500 - 999","Value":2488234,"YearSort":500,"y":2488234,"name":"500 - 999"},{"Year":2007,"Domain.Category":"1,000 - 1,999","Value":5527798,"YearSort":1000,"y":5527798,"name":"1,000 - 1,999"},{"Year":2007,"Domain.Category":"2,000 - 4,999","Value":16532918,"YearSort":2000,"y":16532918,"name":"2,000 - 4,999"},{"Year":2007,"Domain.Category":"5,000+","Value":40793750,"YearSort":5000,"y":40793750,"name":"5,000+"}],"type":"column"},{"name":2012,"data":[{"Year":2012,"Domain.Category":"1 - 24","Value":244250,"YearSort":1,"y":244250,"name":"1 - 24"},{"Year":2012,"Domain.Category":"25 - 49","Value":116808,"YearSort":25,"y":116808,"name":"25 - 49"},{"Year":2012,"Domain.Category":"50 - 99","Value":146967,"YearSort":50,"y":146967,"name":"50 - 99"},{"Year":2012,"Domain.Category":"100 - 199","Value":201460,"YearSort":100,"y":201460,"name":"100 - 199"},{"Year":2012,"Domain.Category":"200 - 499","Value":683977,"YearSort":200,"y":683977,"name":"200 - 499"},{"Year":2012,"Domain.Category":"500 - 999","Value":1384921,"YearSort":500,"y":1384921,"name":"500 - 999"},{"Year":2012,"Domain.Category":"1,000 - 1,999","Value":3662168,"YearSort":1000,"y":3662168,"name":"1,000 - 1,999"},{"Year":2012,"Domain.Category":"2,000 - 4,999","Value":14867199,"YearSort":2000,"y":14867199,"name":"2,000 - 4,999"},{"Year":2012,"Domain.Category":"5,000+","Value":44719035,"YearSort":5000,"y":44719035,"name":"5,000+"}],"type":"column"}],"xAxis":{"type":"category","title":{"text":"Farm Size (Hogs on Farm)"}}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-51a26be29cbc643caa93">{"viewer":{"width":"100%","height":350,"padding":15,"fill":true},"browser":{"width":"100%","height":500,"padding":40,"fill":true}}</script>
+
+<p>While the sum of small farms barely register on this chart, a small amount of factory farms hold an increasing majority of hogs in the US. Since 1997, smaller farms have come to represent a diminishing amount of the total hog population in the US. On the other hand, factory farms with over 2,000 hogs contain over 96% of the hog population. More than ever, hog farming is an industrialized business.</p>
+
+<p>The code used to generate these graphs is on <a href="https://github.com/mackfinkel/agricultureData">GitHub</a>.</p>
 
           
           <!-- Author -->
           <p class="text-muted">
-            <span class="postDate">12 october 2017</span>.
+            <span class="postDate">04 december 2017</span>.
             
 cross-posted on
 
-<a href="https://steemit.com/food/@somethingburger/walking-through-data-hog-and-pig-farms">steemit</a>
-and <a href="http://mackfinkel.com/agriculture/animals/statistics/2017/10/12/pork-data.html">my site.</a>
+<a href="https://steemit.com/agriculture/@somethingburger/data-more-hogs-are-on-factory-farms-than-ever-before">steemit</a>
+and <a href="http://mackfinkel.com/agriculture/statistics/animals/2017/12/04/hog-ag-industrial.html">my site.</a>
             filed under
 
 <a href="http://mackfinkel.com/categories.html#agriculture">agriculture</a>, 
-<a href="http://mackfinkel.com/categories.html#animals">animals</a>, 
-and <a href="http://mackfinkel.com/categories.html#statistics">statistics</a>.
+<a href="http://mackfinkel.com/categories.html#statistics">statistics</a>, 
+and <a href="http://mackfinkel.com/categories.html#animals">animals</a>.
 </p>
 
         </div>
