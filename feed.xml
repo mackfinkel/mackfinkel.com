@@ -5,7 +5,40 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Mon, 04 Dec 2017 16:13:41 -0500</lastBuildDate>
+        <lastBuildDate>Wed, 13 Dec 2017 00:32:12 -0500</lastBuildDate>
+        
+        <item>
+          <title>Trends in beef industry</title>
+            <description>
+                Examining beef farm data by cattle count.
+            </description>
+            <pubDate>Mon, 11 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2017/12/11/beef-ag-industrial.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>Importing Surveys of Incarcerated Populations into R</title>
+            <description>
+                Importing surveys of inmates in local jails, state prisons, and federal prisons from SAS + ASCII format into R.
+            </description>
+            <pubDate>Thu, 07 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/statistics/r/2017/12/07/bjs-data.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>More hogs are on factory farms than ever before</title>
+            <description>
+                Pork agriculture is industrializing.
+            </description>
+            <pubDate>Mon, 04 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2017/12/04/hog-ag-industrial.html
+            </guid>
+        </item>
         
         <item>
           <title>Importing USDA Census of Agriculture Data into R</title>
