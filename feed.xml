@@ -5,7 +5,29 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Wed, 13 Dec 2017 00:32:12 -0500</lastBuildDate>
+        <lastBuildDate>Tue, 19 Dec 2017 14:19:39 -0500</lastBuildDate>
+        
+        <item>
+          <title>Animal Agriculture Exacerbates Human Inequality</title>
+            <description>
+                Waste from industrial animal agriculture is concentrated in the poorest areas of America, affecting the health of marginalized people.
+            </description>
+            <pubDate>Tue, 19 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/inequality/2017/12/19/waste-inequality.html
+            </guid>
+        </item>
+        
+        <item>
+          <title>Big Dairy is Taking Over</title>
+            <description>
+                Examining beef farm data by cattle count.
+            </description>
+            <pubDate>Thu, 14 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2017/12/14/dairy-ag-industrial.html
+            </guid>
+        </item>
         
         <item>
           <title>Trends in beef industry</title>
