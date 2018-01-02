@@ -5,7 +5,18 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Tue, 19 Dec 2017 14:19:39 -0500</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jan 2018 03:00:39 -0500</lastBuildDate>
+        
+        <item>
+          <title>Profile of Health of Incarcerated Women in the United States</title>
+            <description>
+                Mental health issues are prevalent among incarcerated women, and jails fall behind prisons in treatment of every health condition.
+            </description>
+            <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/statistics/inequality/2018/01/02/health-incarcerated-women.html
+            </guid>
+        </item>
         
         <item>
           <title>Animal Agriculture Exacerbates Human Inequality</title>
