@@ -5,7 +5,18 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Thu, 01 Feb 2018 14:37:37 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2018 02:37:27 -0500</lastBuildDate>
+        
+        <item>
+          <title>Big Increases in Animal Agriculture Waste</title>
+            <description>
+                Visualizing industrialization by measuring poop.
+            </description>
+            <pubDate>Fri, 02 Feb 2018 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/inequality/2018/02/02/waste-years.html
+            </guid>
+        </item>
         
         <item>
           <title>Profile of Health of Incarcerated Women in the United States</title>
@@ -32,7 +43,7 @@
         <item>
           <title>Big Dairy is Taking Over</title>
             <description>
-                Examining beef farm data by cattle count.
+                Small dairy farms are disappearing, and more cows are on the biggest dairy facilities than ever before.
             </description>
             <pubDate>Thu, 14 Dec 2017 00:00:00 -0500</pubDate>
             <guid>
