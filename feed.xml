@@ -2,10 +2,21 @@
 <rss version="2.0">
 
     <channel>
-        <title>mack finkel</title>
+        <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Fri, 02 Feb 2018 02:37:27 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 09 Mar 2018 07:24:05 -0500</lastBuildDate>
+        
+        <item>
+          <title>Racial Wealth Gap Persists Despite Educational Progress</title>
+            <description>
+                Improved educational attainment does not necessarily mean improved racial equality.
+            </description>
+            <pubDate>Fri, 09 Mar 2018 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/education/statistics/inequality/race/2018/03/09/race-class-education.html
+            </guid>
+        </item>
         
         <item>
           <title>Big Increases in Animal Agriculture Waste</title>
