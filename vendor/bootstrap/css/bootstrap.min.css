@@ -178,13 +178,13 @@ sup {
   color:#000
 }
 a {
- color:#0067CB;
+ color:#007bff;
  text-decoration:none;
  background-color:transparent;
  -webkit-text-decoration-skip:objects
 }
 a:hover {
- text-decoration: underline;
+ color:#0056b3;
 }
 a:not([href]):not([tabindex]) {
  color:inherit;
