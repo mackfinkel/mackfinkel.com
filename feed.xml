@@ -5,7 +5,23 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Fri, 01 Jun 2018 17:04:02 -0400</lastBuildDate>
+        <lastBuildDate>Mon, 04 Jun 2018 15:51:21 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://raw.githubusercontent.com/mackfinkel/misc/master/posts/2018-06-04-income-animal-waste/incomeAvgWaste.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/inequality/2018/06/04/income-animal-waste.html</link>
+  			 </image>
+          <title>Animal Agriculture Waste and Income Inequality</title>
+            <description>
+                Industrial animal agriculture is untenable.
+            </description>
+            <pubDate>Mon, 04 Jun 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/inequality/2018/06/04/income-animal-waste.html
+            </guid>
+        </item>
         
         <item>
         	<image>
