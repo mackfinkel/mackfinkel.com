@@ -5,13 +5,29 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Tue, 04 Sep 2018 18:54:04 -0400</lastBuildDate>
+        <lastBuildDate>Thu, 13 Sep 2018 12:30:16 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://cdn.steemitimages.com/DQmX6LQTE6MbBAo46eMn7YQtzaahQVVrhWS4DWjfyq7q5f8/FLORENCE.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/13/ag-waste-florence.html</link>
+  			 </image>
+          <title>Animal Manure Pits on the Hurricane Path</title>
+            <description>
+                Animal facilities in the path of Florence pose threats to public health.
+            </description>
+            <pubDate>Thu, 13 Sep 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2018/09/13/ag-waste-florence.html
+            </guid>
+        </item>
         
         <item>
         	<image>
      			<url>https://cdn.steemitimages.com/DQmQvNwQ9iCETM6um7SgmKVvsxFxDwg5orAq8o7X7wtLNSv/Screen%20Shot%202018-09-03%20at%209.55.11%20PM.png</url>
      			<title>post image</title>
-    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map.html</link>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map-copy.html</link>
   			 </image>
           <title>Mapping Animals in US Agriculture</title>
             <description>
@@ -19,7 +35,7 @@
             </description>
             <pubDate>Tue, 04 Sep 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map.html
+                http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map-copy.html
             </guid>
         </item>
         
