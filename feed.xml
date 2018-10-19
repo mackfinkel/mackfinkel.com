@@ -5,7 +5,55 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Thu, 13 Sep 2018 12:30:16 -0400</lastBuildDate>
+        <lastBuildDate>Fri, 19 Oct 2018 13:22:11 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://cdn.steemitimages.com/DQmW4jYch1HQUccANNYGXcseS4CeJwbJ36sgko71z9UTRax/squad-car-1209719_1920.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/incarceration/statistics/r/2018/10/12/ppcs-import.html</link>
+  			 </image>
+          <title>Importing Police-Public Contact Surveys Into R</title>
+            <description>
+                
+            </description>
+            <pubDate>Fri, 12 Oct 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/statistics/r/2018/10/12/ppcs-import.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmZpT2JBjAhxqQbbxa2ZoQm2XCLPtkCagdJQ2oj2jAfbjs/lady-justice-2388500_1920.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/incarceration/statistics/r/2018/09/28/probation-parole-survey.html</link>
+  			 </image>
+          <title>Importing Annual Probation and Parole Surveys into R</title>
+            <description>
+                
+            </description>
+            <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/statistics/r/2018/09/28/probation-parole-survey.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://farm2.staticflickr.com/1879/29848775247_cc89a74f86_k_d.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/21/breach-waste-florence.html</link>
+  			 </image>
+          <title>Waste Lagoons Breached by Hurricane Florence</title>
+            <description>
+                Many animal agriculture facilities are underwater.
+            </description>
+            <pubDate>Fri, 21 Sep 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2018/09/21/breach-waste-florence.html
+            </guid>
+        </item>
         
         <item>
         	<image>
@@ -27,7 +75,7 @@
         	<image>
      			<url>https://cdn.steemitimages.com/DQmQvNwQ9iCETM6um7SgmKVvsxFxDwg5orAq8o7X7wtLNSv/Screen%20Shot%202018-09-03%20at%209.55.11%20PM.png</url>
      			<title>post image</title>
-    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map-copy.html</link>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map.html</link>
   			 </image>
           <title>Mapping Animals in US Agriculture</title>
             <description>
@@ -35,13 +83,13 @@
             </description>
             <pubDate>Tue, 04 Sep 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map-copy.html
+                http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map.html
             </guid>
         </item>
         
         <item>
         	<image>
-     			<url>https://raw.githubusercontent.com/mackfinkel/misc/master/posts/2018-06-04-income-animal-waste/incomeAvgWaste.png</url>
+     			<url>https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmZqALJiQKrkcVWTdRDHVsEpShyrSe9ipaanNJ1UwjXSmD/wasteIncome.png</url>
      			<title>post image</title>
     			<link>http://mackfinkel.com/agriculture/statistics/animals/inequality/2018/06/04/income-animal-waste.html</link>
   			 </image>
@@ -89,7 +137,7 @@
         
         <item>
         	<image>
-     			<url>https://steemitimages.com/DQmb42YZX8gjnVeDnbHL1PwQ3qGuStSr2TKg5KXRyWX9Nq7/waste_history.png</url>
+     			<url>https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmRxYewvs5beyFvJDrZx4sLHRJudjBpXFS6mrFF4VKJup6/Screen%20Shot%202018-09-14%20at%202.40.24%20PM.png</url>
      			<title>post image</title>
     			<link>http://mackfinkel.com/agriculture/statistics/inequality/2018/02/02/waste-years.html</link>
   			 </image>
