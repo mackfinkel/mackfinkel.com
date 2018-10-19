@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Importing surveys of inmates in local jails, state prisons, and federal prisons from SAS + ASCII format into R. ">
+    <meta name="author" content="Mack Finkel">
+    <meta name="date" content="2017-12-07 00:00:00 -0500">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Importing Surveys of Incarcerated Populations into R | details and data" />
+    <meta property="og:url" content="http://mackfinkel.com/incarceration/statistics/r/2017/12/07/bjs-data.html"  />
+    <meta property="og:description" content="Importing surveys of inmates in local jails, state prisons, and federal prisons from SAS + ASCII format into R." />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://steemitimages.com/DQmNqpjiwFgBeeWa8BhYjcbfkH8kJvCoTctNWJvp5qa2Yb4/american-flag-2054414_1920.jpg" />
+    <meta property="og:site_name" content="details and data" />
+    <meta property="article:published_time" content="2017-12-07 00:00:00 -0500" />
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="http://mackfinkel.com/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://mackfinkel.com/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://mackfinkel.com/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://mackfinkel.com/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://mackfinkel.com/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://mackfinkel.com/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://mackfinkel.com/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://mackfinkel.com/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://mackfinkel.com/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="http://mackfinkel.com/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://mackfinkel.com/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://mackfinkel.com/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://mackfinkel.com/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://mackfinkel.com/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://mackfinkel.com/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Importing Surveys of Incarcerated Populations into R | details and data</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://mackfinkel.github.io/mackfinkel.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://mackfinkel.github.io/mackfinkel.com/css/blog-post.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="http://mackfinkel.com">mack finkel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://mackfinkel.com/cv.html">cv</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8 mx-auto">
+
+          <!-- Title -->
+          <h1 class="mt-4">Importing Surveys of Incarcerated Populations into R</h1>
+          <h1><small class="text-muted"><small>07 December 2017</small></small></h1>
+          
+          <!-- Post Content -->
+          <p class="lead">Importing surveys of inmates in local jails, state prisons, and federal prisons from SAS + ASCII format into R.</p>
+          <p><img src="https://steemitimages.com/DQmNqpjiwFgBeeWa8BhYjcbfkH8kJvCoTctNWJvp5qa2Yb4/american-flag-2054414_1920.jpg" alt="american-flag-2054414_1920.jpg" /></p>
+
+<p>The Bureau of Justice Statistics (BJS) has a <a href="https://www.bjs.gov/index.cfm?ty=dca">ton of data</a> regarding law-enforcement and incarceration. For a class research project, I am looking into examining data on the pre-incarceration incomes of incarcerated parents. For this topic, I am looking to examine three datasets: the <a href="https://www.bjs.gov/index.cfm?ty=dcdetail&amp;iid=273">Survey of Inmates in Federal Correctional Facilities (SIFCF)</a>, the <a href="https://www.bjs.gov/index.cfm?ty=dcdetail&amp;iid=275">Survey of Inmates in State Correctional Facilities (SISCF)</a>, and the <a href="https://www.bjs.gov/index.cfm?ty=dcdetail&amp;iid=274">Survey of Inmates in Local Jails (SILJ)</a>. I will be downloading the most recent datasets from each, which includes <a href="http://www.icpsr.umich.edu/icpsrweb/NACJD/studies/4572">2004 data from the SIFCF and SISCF</a> as well as <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/4359">2002 data from the SILJ</a>.</p>
+
+<p>This data, for the most part, is formatted to be accessible in closed-source programs that I would need to purchase a license to use. There are two problems with that: federally funded data should not require the public to purchase software to access it, and I don’t want to use that software. Here’s how to circumvent that and import the data from ASCII + SAS format into R:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#download datasets
+#jails: http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/4359
+#prisons: http://www.icpsr.umich.edu/icpsrweb/NACJD/studies/4572
+#I am not allowed to re-distribute this original dataset
+#use "ASCII + SAS setup" links
+#unzip and concatenate datasets to same two folders (jails: "ICPSR_04359", prisons: "ICPSR_04572")
+
+#set dir to dir with both data folders
+setwd("YOURDIRECTORYHERE")
+
+#convert data to R, save in repsective folders
+library(SAScii)
+#SAScii package allows R to follow .sas input directions for .txt ASCII files, so long as the user specifies line in the .sas file at which "INPUT" starts manually
+#Use a text editor to open .sas files and find "INPUT" lines
+#define input lines
+input04359_DS0001 &lt;- 3681
+input04359_DS0002 &lt;- 50
+input04572_DS0001 &lt;- 3904
+input04572_DS0002 &lt;- 3898
+input04572_DS0003 &lt;- 424
+input04572_DS0004 &lt;- 424
+
+#define lrcel, also manually from .sas files
+lrcel04359_DS0001 &lt;- 4679
+lrcel04359_DS0002 &lt;- 14326
+lrcel04572_DS0001 &lt;- 8845
+lrcel04572_DS0002 &lt;- 8845
+lrcel04572_DS0003 &lt;- 2580
+lrcel04572_DS0004 &lt;- 2580
+
+#load data. takes a long time.
+data04359_DS0001 &lt;- read.SAScii("ICPSR_04359/DS0001/04359-0001-Data.txt", "ICPSR_04359/DS0001/04359-0001-Setup.sas", input04359_DS0001, lrecl = lrcel04359_DS0001)
+data04359_DS0002 &lt;- read.SAScii("ICPSR_04359/DS0002/04359-0002-Data.txt", "ICPSR_04359/DS0002/04359-0002-Setup.sas", input04359_DS0002, lrecl = lrcel04359_DS0002)
+data04572_DS0001 &lt;- read.SAScii("ICPSR_04572/DS0001/04572-0001-Data.txt", "ICPSR_04572/DS0001/04572-0001-Setup.sas", input04572_DS0001, lrecl = lrcel04572_DS0001)
+data04572_DS0002 &lt;- read.SAScii("ICPSR_04572/DS0002/04572-0002-Data.txt", "ICPSR_04572/DS0002/04572-0002-Setup.sas", input04572_DS0002, lrecl = lrcel04572_DS0002)
+data04572_DS0003 &lt;- read.SAScii("ICPSR_04572/DS0003/04572-0003-Data.txt", "ICPSR_04572/DS0003/04572-0003-Setup.sas", input04572_DS0003, lrecl = lrcel04572_DS0003) 
+data04572_DS0004 &lt;- read.SAScii("ICPSR_04572/DS0004/04572-0004-Data.txt", "ICPSR_04572/DS0004/04572-0004-Setup.sas", input04572_DS0004, lrecl = lrcel04572_DS0004)
+
+#save in "data" folder
+dir.create("data")
+setwd("data/")
+save(data04359_DS0001,file="data04359_DS0001.Rda")
+save(data04359_DS0002,file="data04359_DS0002.Rda")
+save(data04572_DS0001,file="data04572_DS0001.Rda")
+save(data04572_DS0002,file="data04572_DS0002.Rda")
+save(data04572_DS0003,file="data04572_DS0003.Rda")
+save(data04572_DS0004,file="data04572_DS0004.Rda")
+4572_DS0002$V1825)
+</code></pre>
+</div>
+
+<p>And that’s it. Analyze away.</p>
+
+          
+          <!-- Author -->
+          <p class="text-muted">
+            <span class="postDate">07 december 2017</span>.
+            
+cross-posted on
+
+<a href="https://steemit.com/education/@somethingburger/importing-surveys-of-incarcerated-populations-into-r-1512416972-6865041">steemit</a>
+and <a href="http://mackfinkel.com/incarceration/statistics/r/2017/12/07/bjs-data.html">my site.</a>
+            filed under
+
+<a href="http://mackfinkel.com/categories.html#incarceration">incarceration</a>, 
+<a href="http://mackfinkel.com/categories.html#statistics">statistics</a>, 
+and <a href="http://mackfinkel.com/categories.html#r">r</a>.
+</p>
+</div>
+</div>
+
+<!-- subscribe -->
+
+<p></p>
+<div class="container col-lg-8 mx-auto text-center">
+
+                  <!-- Categories Widget -->
+                  <h5 class="card-title">follow and subscribe</h5>
+                  </div>
+                  <p></p>
+                  <div class="row col-lg-8 mx-auto text-center">
+            <div class="col-lg-4 col-sm-6">
+            <div class="card-text">
+              <p><a href="http://mackfinkel.com/feed.xml">rss</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card-text">
+              <div class="input-group">
+                <form action="https://mackfinkel.us16.list-manage.com/subscribe/post?u=561f3b1bd4804ac4a9ccfd081&amp;id=c63e07b29e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="input-group" target="_blank" novalidate>
+                <input type="email" value="" name="EMAIL" class="form-control" placeholder="email" id="mce-EMAIL">
+                <div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_561f3b1bd4804ac4a9ccfd081_c63e07b29e" tabindex="-1" value=""></div>
+                <span class="input-group-btn">
+                  <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary" type="button">submit</button>
+                </span>
+              </div>
+              </form>
+            </div></div></div><p></p>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card-text">
+              <p><a href="https://twitter.com/mackfinkel">twitter</a></p> 
+            </div>
+          </div>
+        <!-- /.categories -->
+
+
+      </div>
+      <!-- /.row -->
+      
+      <!-- /.subscribe -->
+
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    <footer class="py-5 bg-white">
+      <div class="container text-center text-muted">
+        <p>All content <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>.</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

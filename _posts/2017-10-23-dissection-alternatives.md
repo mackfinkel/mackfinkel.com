@@ -1,0 +1,24 @@
+---
+title: Educational Alternatives to Animal Dissection
+layout: default
+image: https://steemitimages.com/DQmTeMpSSWRhvcURNbMTNUGewFtr8WLVHhMV1qBiALjKU2u/dissectiontools.jpg
+description: Taking the life of an animal to learn anatomy is more expensive, but not more educational, than several alternatives.
+categories: [science, animals, education]
+crossposts:
+  - name: steemit
+    url: https://steemit.com/education/@somethingburger/educational-alternatives-to-animal-dissection-1508525422-6286764
+---
+
+<div>
+<p></p><center><img src="https://steemitimages.com/DQmTeMpSSWRhvcURNbMTNUGewFtr8WLVHhMV1qBiALjKU2u/dissectiontools.jpg" alt="dissectiontools.jpg"><em>Dissection tools (credit: <a href="https://en.wikipedia.org/wiki/File:Dissection_tools.jpg" rel="noopener">Retama</a>)</em></center><p></p>
+<p>An education in biological sciences usually entails animal dissections. Throughout my own studies I have seen frogs, sheep brains, cow hearts, rats, and fetal pigs in the classroom. Yet under closer investigation, the practice of dissection might not be as useful as it is prevalent.</p>
+<h1>Mixed Attitudes</h1>
+<hr>
+<p>Much of the protest around animal dissection centers around the ethics of taking an life for educational purposes. For example, fetal pigs used in laboratory settings have an <a href="https://www.nebraskascientific.com/Science_Tips/Tell_me_about_Fetal_Pigs/" rel="noopener">unsavory origin</a>: they are removed from the uteruses of pigs that are killed for meat while they are pregnant. While attitudes towards dissection are not particularly well studied, <a href="http://www.humanesociety.org/assets/pdfs/parents_educators/attitudes_toward_dissection.pdf" rel="noopener">existing research</a> in students across educational levels show prevalent uneasiness about dissection ethics, and tend to strongly support the right to opt-out of the practice. In fact, <a href="http://www.humanesociety.org/assets/pdfs/parents_educators/dissection_choice_laws.pdf" rel="noopener">laws in many states</a> (including <a href="http://www.legis.state.pa.us/cfdocs/legis/LI/uconsCheck.cfm?txtType=HTM&amp;yr=1949&amp;sessInd=0&amp;smthLwInd=0&amp;act=14&amp;chpt=15&amp;sctn=23&amp;subsctn=0" rel="noopener">mine</a>) protect students' rights to opt-out of educational dissections without being penalized.</p>
+<h1>Effective Alternatives</h1>
+<hr>
+<p>The efficacy of alternatives to animal dissections in education has been demonstrated in many studies. An <a href="http://advan.physiology.org/content/29/1/27" rel="noopener">experiment in 2003</a> involving ~102 undergraduates showed that students who modeled organs from clay scored significantly higher on both low and high difficulty anatomy questions than students who dissected cats. In 2007, a <a href="http://avmajournals.avma.org/doi/abs/10.2460/javma.230.1.37" rel="noopener">systematic review</a> of dissection alternatives determined that “in all 17 studies reviewed, results associated with the alternative method of instruction were not significantly different from or superior to results associated with the conventional method.” These studies are reflective of a growing <a href="http://www.humanesociety.org/assets/pdfs/parents_educators/dissection_vs_alternatives_studies.pdf" rel="noopener">body of literature</a> suggesting that most dissection alternatives are just as effective, if not more effective, than dissections themselves. Furthermore, these alternatives are often <a href="http://www.humanesociety.org/assets/pdfs/parents_educators/dissection_alternatives_cost_comparison.pdf" rel="noopener">substantially cheaper</a> than the dissections themselves.</p>
+<p></p><center><img src="https://steemitimages.com/0x0/https://steemitimages.com/DQmPFpYrbgYAkWR1G8oRfozAzSKj1nh6cafUBekzoqA2VTP/1024px-Cut_rat_2.jpg" alt="ratdissection"><em>Dissection of a pregnant rat in a biology class (credit: <a href="https://www.flickr.com/photos/fine_al/25189523/" rel="noopener">Allen Lew</a>)</em></center><p></p>
+<h1>Dissections in Your Class</h1>
+<hr>
+<p>The viability of dissection alternatives was not something taught in my biology classes. In my most recent course that involved dissections, I only became aware of an alternative to lab dissection after finding a short note at the end of a lab manual chapter. I wish that my school better explored alternatives, and that the student's right to opt-out were taught in the classroom. After all, revisiting the efficacy and morality of common practices is in itself an educational opportunity. If you want your school to better explore dissection alternatives, contact your teachers today!</p>

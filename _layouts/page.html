@@ -1,0 +1,25 @@
+{% include header.html %}
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8 mx-auto">
+
+          <!-- Title -->
+          <h1 class="mt-4">{{ page.title }}</h1>
+          <h1><small class="text-muted"><small>{{ page.date | date_to_long_string }}</small></small></h1>
+          
+          <!-- Post Content -->
+          <p class="lead">{{ page.description }}</p>
+          {{ content }}
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+{% include footer.html %}

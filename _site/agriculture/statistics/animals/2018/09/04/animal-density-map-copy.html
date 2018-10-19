@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This interactive map lets you investigate where animals are in the United States. ">
+    <meta name="author" content="Mack Finkel">
+    <meta name="date" content="2018-09-04 00:00:00 -0400">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Mapping Animals in US Agriculture | details and data" />
+    <meta property="og:url" content="http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map-copy.html"  />
+    <meta property="og:description" content="This interactive map lets you investigate where animals are in the United States." />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://cdn.steemitimages.com/DQmQvNwQ9iCETM6um7SgmKVvsxFxDwg5orAq8o7X7wtLNSv/Screen%20Shot%202018-09-03%20at%209.55.11%20PM.png" />
+    <meta property="og:site_name" content="details and data" />
+    <meta property="article:published_time" content="2018-09-04 00:00:00 -0400" />
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="http://mackfinkel.com/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://mackfinkel.com/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://mackfinkel.com/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://mackfinkel.com/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://mackfinkel.com/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://mackfinkel.com/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://mackfinkel.com/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://mackfinkel.com/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://mackfinkel.com/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="http://mackfinkel.com/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://mackfinkel.com/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://mackfinkel.com/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://mackfinkel.com/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://mackfinkel.com/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://mackfinkel.com/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Mapping Animals in US Agriculture | details and data</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://mackfinkel.github.io/mackfinkel.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://mackfinkel.github.io/mackfinkel.com/css/blog-post.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="http://mackfinkel.com">mack finkel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://mackfinkel.com/cv.html">cv</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8 mx-auto">
+
+          <!-- Title -->
+          <h1 class="mt-4">Mapping Animals in US Agriculture</h1>
+          <h1><small class="text-muted"><small>04 September 2018</small></small></h1>
+          
+          <!-- Post Content -->
+          <p class="lead">This interactive map lets you investigate where animals are in the United States.</p>
+          <p>This post is a continuation of my writing on rise of factory farming of <a href="https://steemit.com/agriculture/@somethingburger/data-more-hogs-are-on-factory-farms-than-ever-before">hogs</a> and <a href="https://steemit.com/education/@somethingburger/data-trends-in-beef-industry-1512418549-7278">cattle</a>, the <a href="https://steemit.com/sndbox/@somethingburger/big-increases-in-animal-agriculture-waste">waste</a> this industry creates, and the <a href="https://steemit.com/health/@somethingburger/animal-agriculture-exacerbates-human-inequality-1513109831-4859874">burdens</a> faced by people <a href="https://steemit.com/agriculture/@somethingburger/animal-agriculture-waste-mirrors-income-inequality-1533877034">impacted</a> by it. This map lets people explore some data for themselves.</p>
+
+<p>The <a href="https://agcensus.usda.gov/Publications/2012/">2012 USDA Census of Agriculture</a> contains county-level livestock head counts for several different types of animals. This census also records how much each type of animal weighs. US counties are extremely varied in size, and so are their animals. In 2012 the average American chicken weighed 6 pounds while the average cow weighed 1249.</p>
+
+<p>In each county, the head count of each animal is multiplied by that animal’s average weight, creating an estimate for the total amount of pounds of that animal in that county. Cattle, hogs, chickens, goats, ducks, and turkeys are counted in this map. All county animal weight totals are summed, and this total weight is divided to yield an estimate for pounds of animal per square mile for each county. This number is scaled by percentile and used to color code the map:</p>
+
+<center><img src="https://cdn.steemitimages.com/DQmQvNwQ9iCETM6um7SgmKVvsxFxDwg5orAq8o7X7wtLNSv/Screen%20Shot%202018-09-03%20at%209.55.11%20PM.png" /><br />
+<i>Data from 2012 USDA Census of Agriculture. Yellow counties have the greatest animal mass per area, while the purple counties have the least.</i></center>
+<p><br />
+An <a href="http://mackfinkel.com/counties.html">interactive</a> version of this map is available (note: this loads slowly and displays poorly on mobile). There are some missing counties, and it seems that a technical issue left out data on Alaska entirely. On the interactive map, hovering over an individual county will show its their livestock counts:</p>
+
+<center><img src="https://cdn.steemitimages.com/DQmQXGMEETVSNBGiax5ZHzg9v5FVEyyosAMzFSiAkgeqHLo/Screen%20Shot%202018-09-03%20at%209.18.46%20PM.png" /></center>
+<p><br />
+It was not surprising to see Duplin, NC rank at the top of this metric, because Duplin’s hog industry is well known for <a href="https://qz.com/433750/the-world-eats-cheap-bacon-at-the-expense-of-north-carolinas-rural-poor/">reckless pollution</a> that harms the health of the disproportionately poor, non-white county. Duplin was also the focus of a previous <a href="https://steemit.com/health/@somethingburger/animal-agriculture-exacerbates-human-inequality-1513109831-4859874">article</a> and a <a href="https://steemit.com/agriculture/@somethingburger/animal-agriculture-waste-mirrors-income-inequality-1533877034">visualization</a> I posted that discusses the strong presence of animal agriculture pollution in low income communities.</p>
+
+<center><img src="https://cdn.steemitimages.com/DQmeoBdDUX6VPCrV7KhvEy4w3dhCx2nUXsAHdEhVuL247Nd/Screen%20Shot%202018-09-03%20at%209.50.41%20PM.png" /></center>
+<p><br />
+This data can also be revealing about random counties as well. For instance, Lancaster, PA had over 20 million chickens in 2012. It’s not surprising that this county has had its own issues with <a href="http://www.mcall.com/news/nationworld/pennsylvania/mc-nws-chicken-sludge-road-closure-lancaster-20170721-story.html">waste pollution</a> as well.</p>
+
+<p class="text-muted">All code used to process data and create graphs is on <a href="https://github.com/mackfinkel/misc/tree/master/posts/2018-09-04-animal-density-map">GitHub</a>. Content crossposted on <a href="https://steemit.com/agriculture/@somethingburger/mapping-animals-in-us-agriculture-1536029438">Steemit</a>.</p>
+
+          
+          <!-- Author -->
+          <p class="text-muted">
+            <span class="postDate">04 september 2018</span>.
+            
+            filed under
+
+<a href="http://mackfinkel.com/categories.html#agriculture">agriculture</a>, 
+<a href="http://mackfinkel.com/categories.html#statistics">statistics</a>, 
+and <a href="http://mackfinkel.com/categories.html#animals">animals</a>.
+</p>
+</div>
+</div>
+
+<!-- subscribe -->
+
+<p></p>
+<div class="container col-lg-8 mx-auto text-center">
+
+                  <!-- Categories Widget -->
+                  <h5 class="card-title">follow and subscribe</h5>
+                  </div>
+                  <p></p>
+                  <div class="row col-lg-8 mx-auto text-center">
+            <div class="col-lg-4 col-sm-6">
+            <div class="card-text">
+              <p><a href="http://mackfinkel.com/feed.xml">rss</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card-text">
+              <div class="input-group">
+                <form action="https://mackfinkel.us16.list-manage.com/subscribe/post?u=561f3b1bd4804ac4a9ccfd081&amp;id=c63e07b29e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="input-group" target="_blank" novalidate>
+                <input type="email" value="" name="EMAIL" class="form-control" placeholder="email" id="mce-EMAIL">
+                <div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_561f3b1bd4804ac4a9ccfd081_c63e07b29e" tabindex="-1" value=""></div>
+                <span class="input-group-btn">
+                  <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary" type="button">submit</button>
+                </span>
+              </div>
+              </form>
+            </div></div></div><p></p>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card-text">
+              <p><a href="https://twitter.com/mackfinkel">twitter</a></p> 
+            </div>
+          </div>
+        <!-- /.categories -->
+
+
+      </div>
+      <!-- /.row -->
+      
+      <!-- /.subscribe -->
+
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    <footer class="py-5 bg-white">
+      <div class="container text-center text-muted">
+        <p>All content <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>.</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

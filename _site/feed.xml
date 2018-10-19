@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>details and data</title>
+        <link>http://mackfinkel.com</link>
+        <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
+        <lastBuildDate>Fri, 19 Oct 2018 12:47:58 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://cdn.steemitimages.com/DQmX6LQTE6MbBAo46eMn7YQtzaahQVVrhWS4DWjfyq7q5f8/FLORENCE.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/13/ag-waste-florence.html</link>
+  			 </image>
+          <title>Animal Manure Pits on the Hurricane Path</title>
+            <description>
+                Animal facilities in the path of Florence pose threats to public health.
+            </description>
+            <pubDate>Thu, 13 Sep 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2018/09/13/ag-waste-florence.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://cdn.steemitimages.com/DQmQvNwQ9iCETM6um7SgmKVvsxFxDwg5orAq8o7X7wtLNSv/Screen%20Shot%202018-09-03%20at%209.55.11%20PM.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map-copy.html</link>
+  			 </image>
+          <title>Mapping Animals in US Agriculture</title>
+            <description>
+                This interactive map lets you investigate where animals are in the United States.
+            </description>
+            <pubDate>Tue, 04 Sep 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2018/09/04/animal-density-map-copy.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmZqALJiQKrkcVWTdRDHVsEpShyrSe9ipaanNJ1UwjXSmD/wasteIncome.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/inequality/2018/06/04/income-animal-waste.html</link>
+  			 </image>
+          <title>Animal Agriculture Waste and Income Inequality</title>
+            <description>
+                Industrial animal agriculture is untenable.
+            </description>
+            <pubDate>Mon, 04 Jun 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/inequality/2018/06/04/income-animal-waste.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://raw.githubusercontent.com/mackfinkel/misc/master/posts/2018-03-10-student-debt-race/loans.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/education/statistics/inequality/race/2018/03/10/student-debt-race.html</link>
+  			 </image>
+          <title>Student Loan Forgiveness and Racial Wealth</title>
+            <description>
+                Debt erasure is a simple, viable way to increase minority wealth.
+            </description>
+            <pubDate>Sat, 10 Mar 2018 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/education/statistics/inequality/race/2018/03/10/student-debt-race.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://raw.githubusercontent.com/mackfinkel/misc/master/posts/2018-03-09-race-class-education/gradRates.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/education/statistics/inequality/race/2018/03/09/race-class-education.html</link>
+  			 </image>
+          <title>Racial Wealth Gap Persists Despite Educational Progress</title>
+            <description>
+                Improved educational attainment does not necessarily mean improved racial equality.
+            </description>
+            <pubDate>Fri, 09 Mar 2018 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/education/statistics/inequality/race/2018/03/09/race-class-education.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmRxYewvs5beyFvJDrZx4sLHRJudjBpXFS6mrFF4VKJup6/Screen%20Shot%202018-09-14%20at%202.40.24%20PM.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/inequality/2018/02/02/waste-years.html</link>
+  			 </image>
+          <title>Big Increases in Animal Agriculture Waste</title>
+            <description>
+                Visualizing industrialization by measuring poop.
+            </description>
+            <pubDate>Fri, 02 Feb 2018 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/inequality/2018/02/02/waste-years.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmPpdWhcmX79Uc3VtvU9mjdSkyddK9VpKK1sYr4iVRniAz/prison-370112_1920.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/incarceration/statistics/inequality/2018/01/02/health-incarcerated-women.html</link>
+  			 </image>
+          <title>Profile of Health of Incarcerated Women in the United States</title>
+            <description>
+                Mental health issues are prevalent among incarcerated women, and jails fall behind prisons in treatment of every health condition.
+            </description>
+            <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/statistics/inequality/2018/01/02/health-incarcerated-women.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmeKNMxomKRWM3J7MYStKmYqrW6SKFfbJaTcUuMWnTrtkE/lagoon.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/inequality/2017/12/19/waste-inequality.html</link>
+  			 </image>
+          <title>Animal Agriculture Exacerbates Human Inequality</title>
+            <description>
+                Waste from industrial animal agriculture is concentrated in the poorest areas of America, affecting the health of marginalized people.
+            </description>
+            <pubDate>Tue, 19 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/inequality/2017/12/19/waste-inequality.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmbWT7mRUnt1rF5BDzrD1cNWUPTDG9WMKADjkX3Q8zEVf1/inventory.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2017/12/14/dairy-ag-industrial.html</link>
+  			 </image>
+          <title>Big Dairy is Taking Over</title>
+            <description>
+                Small dairy farms are disappearing, and more cows are on the biggest dairy facilities than ever before.
+            </description>
+            <pubDate>Thu, 14 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2017/12/14/dairy-ag-industrial.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmYYztjrjaf3AprMdMUR6yybVU8MbYXovMV6fR2vLQYdyf/beefFarms.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2017/12/11/beef-ag-industrial.html</link>
+  			 </image>
+          <title>Trends in beef industry</title>
+            <description>
+                Examining beef farm data by cattle count.
+            </description>
+            <pubDate>Mon, 11 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2017/12/11/beef-ag-industrial.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmNqpjiwFgBeeWa8BhYjcbfkH8kJvCoTctNWJvp5qa2Yb4/american-flag-2054414_1920.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/incarceration/statistics/r/2017/12/07/bjs-data.html</link>
+  			 </image>
+          <title>Importing Surveys of Incarcerated Populations into R</title>
+            <description>
+                Importing surveys of inmates in local jails, state prisons, and federal prisons from SAS + ASCII format into R.
+            </description>
+            <pubDate>Thu, 07 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/statistics/r/2017/12/07/bjs-data.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://steemitimages.com/DQmRZX6o61Cqx174UUWQM4Gj5pNXEcmJ8Z3pZN17ozA6p84/hogsInventory.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/animals/2017/12/04/hog-ag-industrial.html</link>
+  			 </image>
+          <title>More hogs are on factory farms than ever before</title>
+            <description>
+                Pork agriculture is industrializing.
+            </description>
+            <pubDate>Mon, 04 Dec 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/animals/2017/12/04/hog-ag-industrial.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmZBTHdhGcN64hLeDGKmUxSbqrxyFmY3a4tBwhFpjHCLwM/Precision_Farming_in_Minnesota_-_Natural_Colour.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/statistics/r/2017/11/24/ag-census-data.html</link>
+  			 </image>
+          <title>Importing USDA Census of Agriculture Data into R</title>
+            <description>
+                Post-Thanksgiving, America is experiencing a different kind of hunger – a hunger for agricultural data that is easy to process in the programming language R.
+            </description>
+            <pubDate>Fri, 24 Nov 2017 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/statistics/r/2017/11/24/ag-census-data.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmTeMpSSWRhvcURNbMTNUGewFtr8WLVHhMV1qBiALjKU2u/dissectiontools.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/science/animals/education/2017/10/23/dissection-alternatives.html</link>
+  			 </image>
+          <title>Educational Alternatives to Animal Dissection</title>
+            <description>
+                Taking the life of an animal to learn anatomy is more expensive, but not more educational, than several alternatives.
+            </description>
+            <pubDate>Mon, 23 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/science/animals/education/2017/10/23/dissection-alternatives.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://www.digitaltrends.com/wp-content/uploads/2013/01/computer-mousetrap.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/education/2017/10/18/dont-turnitin.html</link>
+  			 </image>
+          <title>Don't Turnitin – Against Plagiarism Detectors</title>
+            <description>
+                While used by millions, plagiarism detection services are detrimental to the goals of students and teachers alike.
+            </description>
+            <pubDate>Wed, 18 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/education/2017/10/18/dont-turnitin.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://raw.githubusercontent.com/mackfinkel/agricultureData/master/hogsPigs/hogsPigslivestock.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/animals/statistics/2017/10/12/pork-data.html</link>
+  			 </image>
+          <title>Walking Through Data – Hog and Pig Farms</title>
+            <description>
+                In examining data, we can see telling relationships about agriculture. Here these relationships – and ways of visualizing them – are discussed.
+            </description>
+            <pubDate>Thu, 12 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/animals/statistics/2017/10/12/pork-data.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmTNqXCSsoJW3Yg2P2uxSGMBptXu5B1ULp3szhqRZ2WEk7/25518883844_350917eae6_k.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/animals/statistics/2017/10/11/pork-agriculture.html</link>
+  			 </image>
+          <title>The Tragedy of Pork Agriculture</title>
+            <description>
+                The industrialization of pork is a growing disaster for public health and animal welfare in the United States.
+            </description>
+            <pubDate>Wed, 11 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/animals/statistics/2017/10/11/pork-agriculture.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Noon%2C_rest_from_work_-_Van_Gogh.jpeg/1280px-Noon%2C_rest_from_work_-_Van_Gogh.jpeg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/science/2017/10/04/sleep-deprivation-depression.html</link>
+  			 </image>
+          <title>Sleep Deprivation Does Not Treat Depression</title>
+            <description>
+                Recent claims that sleep deprivation is an effective treatment for depression demonstrate a common problem with press releases in science journalism.
+            </description>
+            <pubDate>Wed, 04 Oct 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/science/2017/10/04/sleep-deprivation-depression.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmSSwr7fdKF6ZGJXTHeVWpeDeoQ9THMU5G7xpWeMSGtkxp/library-1147815_1920.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/education/2017/09/18/track-facts.html</link>
+  			 </image>
+          <title>How to Keep Track of Facts, Argue Intelligently, and Stay Informed</title>
+            <description>
+                Citation managers make everything easier.
+            </description>
+            <pubDate>Mon, 18 Sep 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/education/2017/09/18/track-facts.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/0x0/https://steemitimages.com/DQmNf6F541KsSDtTQhCYyUvNNam96njvrQ96Q6fZGTKmppc/640px-DiPT.svg.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/science/2017/09/15/weird-drug.html</link>
+  			 </image>
+          <title>What Can One Weird Drug Teach Us About The Way We Hear?</title>
+            <description>
+                The pitch-distorting properties of DiPT make it a valuable tool in studying the neural mechanisms of hearing.
+            </description>
+            <pubDate>Fri, 15 Sep 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/science/2017/09/15/weird-drug.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://steemitimages.com/DQmSLgKrk9SVGqT3sFAnjVropcgdBfvCyUmS3sQUXpCFtnd/milk.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/agriculture/science/animals/2017/08/21/what-milk.html</link>
+  			 </image>
+          <title>What Milk Is Best? Environment, Cows, Almonds, and You</title>
+            <description>
+                A popular article comparing types of milk has some major flaws.
+            </description>
+            <pubDate>Mon, 21 Aug 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/agriculture/science/animals/2017/08/21/what-milk.html
+            </guid>
+        </item>
+        
+    </channel>
+</rss>
