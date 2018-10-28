@@ -5,13 +5,29 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Fri, 19 Oct 2018 13:33:25 -0400</lastBuildDate>
+        <lastBuildDate>Sat, 27 Oct 2018 20:58:42 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://raw.githubusercontent.com/mackfinkel/misc/master/posts/2018-10-28-animal-ag-workers/dairyworker.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/inequality/agriculture/workers/animals/reading/2018/10/28/animal-ag-workers.html</link>
+  			 </image>
+          <title>Industrial Animal Agriculture Abuses Workers – a Reading List</title>
+            <description>
+                Tackling injustice in industrial animal agriculture culture means advocating for workers. And vice versa.
+            </description>
+            <pubDate>Sun, 28 Oct 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://mackfinkel.com/inequality/agriculture/workers/animals/reading/2018/10/28/animal-ag-workers.html
+            </guid>
+        </item>
         
         <item>
         	<image>
      			<url>https://cdn.steemitimages.com/DQmW4jYch1HQUccANNYGXcseS4CeJwbJ36sgko71z9UTRax/squad-car-1209719_1920.jpg</url>
      			<title>post image</title>
-    			<link>http://mackfinkel.com/incarceration/statistics/r/2018/10/12/ppcs-import.html</link>
+    			<link>http://mackfinkel.com/incarceration/statistics/r/2018/10/12/ppcs-import-copy.html</link>
   			 </image>
           <title>Importing Police-Public Contact Surveys Into R</title>
             <description>
@@ -19,7 +35,7 @@
             </description>
             <pubDate>Fri, 12 Oct 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://mackfinkel.com/incarceration/statistics/r/2018/10/12/ppcs-import.html
+                http://mackfinkel.com/incarceration/statistics/r/2018/10/12/ppcs-import-copy.html
             </guid>
         </item>
         
