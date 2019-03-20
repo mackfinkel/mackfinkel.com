@@ -5,7 +5,23 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Sat, 27 Oct 2018 20:58:42 -0400</lastBuildDate>
+        <lastBuildDate>Wed, 20 Mar 2019 15:29:17 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://www.prisonpolicy.org/images/tablet_banner.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/incarceration/inequality/2019/03/07/free-tablets.html</link>
+  			 </image>
+          <title>More states are signing harmful “free prison tablet” contracts</title>
+            <description>
+                Tablet computers are delivering a captive audience to profit-seeking companies, while enabling prisons to cut essential services like law libraries. We investigate.
+            </description>
+            <pubDate>Thu, 07 Mar 2019 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/inequality/2019/03/07/free-tablets.html
+            </guid>
+        </item>
         
         <item>
         	<image>
