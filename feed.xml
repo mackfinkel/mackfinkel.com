@@ -5,7 +5,7 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Wed, 20 Mar 2019 16:16:20 -0400</lastBuildDate>
+        <lastBuildDate>Wed, 20 Mar 2019 17:15:54 -0400</lastBuildDate>
         
         <item>
         	<image>
@@ -15,11 +15,43 @@
   			 </image>
           <title>More states are signing harmful “free prison tablet” contracts</title>
             <description>
-                Tablet computers are delivering a captive audience to profit-seeking companies, while enabling prisons to cut essential services like law libraries. We investigate.
+                Tablet computers are delivering a captive audience to profit-seeking companies, while enabling prisons to cut essential services like law libraries.
             </description>
             <pubDate>Thu, 07 Mar 2019 00:00:00 -0500</pubDate>
             <guid>
                 http://mackfinkel.com/incarceration/inequality/2019/03/07/free-tablets.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://www.prisonpolicy.org/images/grading_parole_systems.png</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/incarceration/inequality/2019/02/26/grading-parole.html</link>
+  			 </image>
+          <title>Failure should not be an option: Grading the parole release systems of all 50 states</title>
+            <description>
+                For this report I analyzed National Corrections Reporting Program data to show how many people in each state are currently eligible for parole hearings.
+            </description>
+            <pubDate>Tue, 26 Feb 2019 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/inequality/2019/02/26/grading-parole.html
+            </guid>
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://pbs.twimg.com/media/DzI-KD9WsAA6etW.jpg</url>
+     			<title>post image</title>
+    			<link>http://mackfinkel.com/incarceration/inequality/2019/02/11/phone-justice-report.html</link>
+  			 </image>
+          <title>State of Phone Justice: Local jails, state prisons and private phone providers</title>
+            <description>
+                For this report I assisted with research and design. I created web scrapers to collect data from phone company websites, scripted the interactive clock that tracks call costs, and illustrated the corporate consolidation graphic.
+            </description>
+            <pubDate>Mon, 11 Feb 2019 00:00:00 -0500</pubDate>
+            <guid>
+                http://mackfinkel.com/incarceration/inequality/2019/02/11/phone-justice-report.html
             </guid>
         </item>
         
