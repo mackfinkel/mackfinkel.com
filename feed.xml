@@ -5,7 +5,7 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Wed, 03 Apr 2019 13:05:37 -0400</lastBuildDate>
+        <lastBuildDate>Thu, 04 Apr 2019 18:22:56 -0400</lastBuildDate>
         
         <item>
         	<image>
@@ -23,7 +23,7 @@
             <pubDate>Thu, 07 Mar 2019 00:00:00 -0500</pubDate>
             
 				
-				<link>https://www.prisonpolicy.org/blog/2019/03/07/free-tablets/</guid>
+				<guid>https://www.prisonpolicy.org/blog/2019/03/07/free-tablets/</guid>
 				
         </item>
         
@@ -43,7 +43,7 @@
             <pubDate>Tue, 26 Feb 2019 00:00:00 -0500</pubDate>
             
 				
-				<link>https://www.prisonpolicy.org/reports/grading_parole.html</guid>
+				<guid>https://www.prisonpolicy.org/reports/grading_parole.html</guid>
 				
         </item>
         
@@ -63,7 +63,7 @@
             <pubDate>Mon, 11 Feb 2019 00:00:00 -0500</pubDate>
             
 				
-				<link>https://www.prisonpolicy.org/phones/state_of_phone_justice.html</guid>
+				<guid>https://www.prisonpolicy.org/phones/state_of_phone_justice.html</guid>
 				
         </item>
         
