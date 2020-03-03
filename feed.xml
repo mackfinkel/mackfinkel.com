@@ -5,7 +5,47 @@
         <title>details and data</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a student and a researcher. I write data-driven posts about science, people, and animals.</description>
-        <lastBuildDate>Wed, 10 Apr 2019 14:08:30 -0400</lastBuildDate>
+        <lastBuildDate>Mon, 02 Mar 2020 23:34:11 -0500</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://www.nyclu.org/sites/default/files/styles/featured_image_580x386/public/carousel_slide/solitary2.jpg</url>
+     			<title>post image</title>    			
+    			
+				
+				<link>https://www.nyclu.org/en/publications/trapped-inside-past-present-and-future-solitary-confinement-new-york</link>
+				
+  			 </image>
+          <title>Trapped Inside: The Past, Present, and Future of Solitary Confinement in New York</title>
+            <description>
+                I fact-checked the analysis on this report, which shows that of two proposals, the HALT Act would do more to reduce solitary confinement in New York than the proposed regulations from the Department of Corrections and Community Supervision.
+            </description>
+            <pubDate>Mon, 28 Oct 2019 00:00:00 -0400</pubDate>
+            
+				
+				<guid>https://www.nyclu.org/en/publications/trapped-inside-past-present-and-future-solitary-confinement-new-york</guid>
+				
+        </item>
+        
+        <item>
+        	<image>
+     			<url>https://static.prisonpolicy.org/images/multiple_arrests_health.png</url>
+     			<title>post image</title>    			
+    			
+				
+				<link>https://www.prisonpolicy.org/reports/repeatarrests.html</link>
+				
+  			 </image>
+          <title>Arrest, Release, Repeat: How police and jails are misused to respond to social problems</title>
+            <description>
+                I contributed to this report by recommending using the National Survey on Drug Use and Health to study health and socioeconomic characteristics among recently and frequently incarcerated individuals and running preliminary analyses.
+            </description>
+            <pubDate>Mon, 26 Aug 2019 00:00:00 -0400</pubDate>
+            
+				
+				<guid>https://www.prisonpolicy.org/reports/repeatarrests.html</guid>
+				
+        </item>
         
         <item>
         	<image>
@@ -24,26 +64,6 @@
             
 				
 				<guid>https://www.prisonpolicy.org/blog/2019/04/09/probation_income/</guid>
-				
-        </item>
-        
-        <item>
-        	<image>
-     			<url>https://www.prisonpolicy.org/images/tablet_banner.png</url>
-     			<title>post image</title>    			
-    			
-				
-				<link>https://www.prisonpolicy.org/blog/2019/03/07/free-tablets/</link>
-				
-  			 </image>
-          <title>More states are signing harmful “free prison tablet” contracts</title>
-            <description>
-                Tablet computers are delivering a captive audience to profit-seeking companies, while enabling prisons to cut essential services like law libraries.
-            </description>
-            <pubDate>Thu, 07 Mar 2019 00:00:00 -0500</pubDate>
-            
-				
-				<guid>https://www.prisonpolicy.org/blog/2019/03/07/free-tablets/</guid>
 				
         </item>
         
