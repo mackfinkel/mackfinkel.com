@@ -5,11 +5,31 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a justice-oriented data analyst.</description>
-        <lastBuildDate>Mon, 02 Mar 2020 23:48:17 -0500</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jun 2020 14:38:28 -0400</lastBuildDate>
         
         <item>
         	<image>
-     			<url>https://www.nyclu.org/sites/default/files/styles/featured_image_580x386/public/carousel_slide/solitary2.jpg</url>
+     			<url>img/iceComplaint.png</url>
+     			<title>post image</title>    			
+    			
+				
+				<link>https://www.nyclu.org/en/cases/jose-l-velesaca-v-chad-wolf-et-al</link>
+				
+  			 </image>
+          <title>Jose L. Velesaca v. Chad Wolf et al</title>
+            <description>
+                I analyzed data for this lawsuit, which alleges that ICE's New York office uses a biased algorithm that detains people unconstitutionally.
+            </description>
+            <pubDate>Fri, 28 Feb 2020 00:00:00 -0500</pubDate>
+            
+				
+				<guid>https://www.nyclu.org/en/cases/jose-l-velesaca-v-chad-wolf-et-al</guid>
+				
+        </item>
+        
+        <item>
+        	<image>
+     			<url>img/solitary.png</url>
      			<title>post image</title>    			
     			
 				
