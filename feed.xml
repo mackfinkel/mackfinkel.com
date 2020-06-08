@@ -5,7 +5,27 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a justice-oriented data analyst.</description>
-        <lastBuildDate>Sun, 07 Jun 2020 14:38:28 -0400</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jun 2020 21:01:00 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://mackfinkel.com/img/wait84-5.png</url>
+     			<title>post image</title>    			
+    			
+				<link>http://mackfinkel.com/police/2020/06/07/abolition-cant-wait.html</link>
+				
+				
+  			 </image>
+          <title>Abolition Can't Wait: Data Issues in the #8CantWait Campaign</title>
+            <description>
+                Reforms with shaky evidence are no priority in the fight against police violence. Defunding and abolition are.
+            </description>
+            <pubDate>Sun, 07 Jun 2020 00:00:00 -0400</pubDate>
+            
+				<guid>http://mackfinkel.com/police/2020/06/07/abolition-cant-wait.html</guid>
+				
+				
+        </item>
         
         <item>
         	<image>
@@ -18,7 +38,7 @@
   			 </image>
           <title>Jose L. Velesaca v. Chad Wolf et al</title>
             <description>
-                I analyzed data for this lawsuit, which alleges that ICE's New York office uses a biased algorithm that detains people unconstitutionally.
+                I analyzed data for this class-action lawsuit, which alleges that ICE's New York office uses a biased algorithm that detains people unconstitutionally.
             </description>
             <pubDate>Fri, 28 Feb 2020 00:00:00 -0500</pubDate>
             
