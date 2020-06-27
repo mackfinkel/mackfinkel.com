@@ -5,7 +5,27 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a justice-oriented data analyst.</description>
-        <lastBuildDate>Mon, 08 Jun 2020 12:27:17 -0400</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jun 2020 18:32:39 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://mackfinkel.com/img/missedRace4-5.png</url>
+     			<title>post image</title>    			
+    			
+				<link>http://mackfinkel.com/police/nypd/2020/06/27/nypd-police-deaths.html</link>
+				
+				
+  			 </image>
+          <title>Racial Disparities and NYC's Uncounted Police-Involved deaths</title>
+            <description>
+                Black New Yorkers are more likely to die at the hands of police-involvement. The city fails to count so many of these deaths.
+            </description>
+            <pubDate>Sat, 27 Jun 2020 00:00:00 -0400</pubDate>
+            
+				<guid>http://mackfinkel.com/police/nypd/2020/06/27/nypd-police-deaths.html</guid>
+				
+				
+        </item>
         
         <item>
         	<image>
