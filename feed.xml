@@ -5,7 +5,27 @@
         <title>mack finkel</title>
         <link>http://mackfinkel.com</link>
         <description>I'm a justice-oriented data analyst.</description>
-        <lastBuildDate>Sat, 27 Jun 2020 19:07:15 -0400</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2020 16:43:45 -0400</lastBuildDate>
+        
+        <item>
+        	<image>
+     			<url>https://mackfinkel.com/img/states4-5.png</url>
+     			<title>post image</title>    			
+    			
+				<link>http://mackfinkel.com/incarceration/agriculture/workers/covid19/2020/06/29/covid-cluster-map.html</link>
+				
+				
+  			 </image>
+          <title>COVID-19 Clusters by State</title>
+            <description>
+                The US failed to protect the most vulnerable – the incarcerated, elderly, and workers in already-unsanitary conditions.
+            </description>
+            <pubDate>Mon, 29 Jun 2020 00:00:00 -0400</pubDate>
+            
+				<guid>http://mackfinkel.com/incarceration/agriculture/workers/covid19/2020/06/29/covid-cluster-map.html</guid>
+				
+				
+        </item>
         
         <item>
         	<image>
